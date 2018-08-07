@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/wfifo_512x16.v"
+verilog work "../../src/auto_write_read.v"

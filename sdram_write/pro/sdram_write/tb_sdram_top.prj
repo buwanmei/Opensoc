@@ -1,0 +1,8 @@
+verilog work "../../src/sdram_write.v"
+verilog work "../../src/sdram_read.v"
+verilog work "../../src/sdram_init.v"
+verilog work "../../src/sdram_aref.v"
+verilog work "../../src/auto_write_read.v"
+verilog work "../../work/sdram_model_plus.v"
+verilog work "../../src/sdram_top.v"
+verilog work "../../work/tb_sdram_top.v"

@@ -1,0 +1,49 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "s_rst_n" LOC = L3;
+NET "sclk" LOC = T8;
+NET "vga_hsync" LOC = M14;
+NET "vga_vsync" LOC = L13;
+
+# PlanAhead Generated IO constraints 
+
+NET "s_rst_n" IOSTANDARD = LVCMOS33;
+NET "sclk" IOSTANDARD = LVCMOS33;
+NET "vga_hsync" IOSTANDARD = LVCMOS33;
+NET "vga_vsync" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[15]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[14]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[13]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[12]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[11]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[10]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[9]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[8]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[7]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[6]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[5]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[4]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[3]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[2]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[1]" IOSTANDARD = LVCMOS33;
+NET "vga_rgb[0]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "vga_rgb[15]" LOC = M13;
+NET "vga_rgb[14]" LOC = N14;
+NET "vga_rgb[13]" LOC = L12;
+NET "vga_rgb[12]" LOC = M12;
+NET "vga_rgb[11]" LOC = M11;
+NET "vga_rgb[10]" LOC = P11;
+NET "vga_rgb[9]" LOC = M10;
+NET "vga_rgb[8]" LOC = L10;
+NET "vga_rgb[7]" LOC = P9;
+NET "vga_rgb[6]" LOC = N9;
+NET "vga_rgb[5]" LOC = M9;
+NET "vga_rgb[4]" LOC = L7;
+NET "vga_rgb[3]" LOC = N8;
+NET "vga_rgb[2]" LOC = P8;
+NET "vga_rgb[1]" LOC = M7;
+NET "vga_rgb[0]" LOC = P7;

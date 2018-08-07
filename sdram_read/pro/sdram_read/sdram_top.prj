@@ -1,0 +1,7 @@
+verilog work "ipcore_dir/wfifo_512x16.v"
+verilog work "../../src/sdram_write.v"
+verilog work "../../src/sdram_read.v"
+verilog work "../../src/sdram_init.v"
+verilog work "../../src/sdram_aref.v"
+verilog work "../../src/auto_write_read.v"
+verilog work "../../src/sdram_top.v"

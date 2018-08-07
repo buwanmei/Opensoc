@@ -1,0 +1,202 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\ise\xin\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml sdram_top.twx sdram_top.ncd -o sdram_top.twr sdram_top.pcf
+
+Design file:              sdram_top.ncd
+Physical constraint file: sdram_top.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock rfifo_rclk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+rfifo_rd_en |    5.349(R)|      SLOW  |   -1.641(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+s_rst_n     |    4.834(R)|      SLOW  |   -2.202(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock sclk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+s_rst_n     |    8.577(R)|      SLOW  |   -1.594(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+            |    6.456(F)|      SLOW  |   -2.476(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<0> |    1.328(F)|      SLOW  |    0.275(F)|      SLOW  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<1> |    1.443(F)|      SLOW  |    0.163(F)|      SLOW  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<2> |    1.071(F)|      SLOW  |    0.519(F)|      SLOW  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<3> |    1.939(F)|      SLOW  |   -0.317(F)|      SLOW  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<4> |    2.904(F)|      SLOW  |   -0.892(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<5> |    2.730(F)|      SLOW  |   -0.876(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<6> |    3.093(F)|      SLOW  |   -0.995(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<7> |    2.993(F)|      SLOW  |   -0.882(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<8> |    3.487(F)|      SLOW  |   -1.143(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<9> |    2.728(F)|      SLOW  |   -0.718(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<10>|    3.058(F)|      SLOW  |   -0.885(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<11>|    2.982(F)|      SLOW  |   -0.876(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<12>|    3.567(F)|      SLOW  |   -1.317(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<13>|    3.073(F)|      SLOW  |   -0.888(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<14>|    3.490(F)|      SLOW  |   -1.240(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<15>|    3.197(F)|      SLOW  |   -1.069(F)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock wfifo_wclk
+-----------------+------------+------------+------------+------------+------------------+--------+
+                 |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source           | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+-----------------+------------+------------+------------+------------+------------------+--------+
+s_rst_n          |    7.419(R)|      SLOW  |   -2.843(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<0> |    2.896(R)|      SLOW  |   -0.953(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<1> |    2.692(R)|      SLOW  |   -0.911(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<2> |    2.859(R)|      SLOW  |   -0.972(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<3> |    2.656(R)|      SLOW  |   -0.892(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<4> |    2.591(R)|      SLOW  |   -0.801(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<5> |    2.404(R)|      SLOW  |   -0.731(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<6> |    2.570(R)|      SLOW  |   -0.767(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<7> |    2.459(R)|      SLOW  |   -0.742(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<8> |    2.361(R)|      SLOW  |   -0.659(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<9> |    2.467(R)|      SLOW  |   -0.762(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<10>|    2.630(R)|      SLOW  |   -0.797(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<11>|    2.669(R)|      SLOW  |   -0.876(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<12>|    2.849(R)|      SLOW  |   -0.918(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<13>|    2.874(R)|      SLOW  |   -0.984(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<14>|    3.736(R)|      SLOW  |   -1.417(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_data<15>|    3.580(R)|      SLOW  |   -1.382(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_en      |    5.125(R)|      SLOW  |   -1.006(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+-----------------+------------+------------+------------+------------+------------------+--------+
+
+Clock rfifo_rclk to Pad
+-----------------+-----------------+------------+-----------------+------------+------------------+--------+
+                 |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination      |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-----------------+-----------------+------------+-----------------+------------+------------------+--------+
+rfifo_rd_data<0> |        12.914(R)|      SLOW  |         6.037(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<1> |        12.937(R)|      SLOW  |         6.028(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<2> |        12.938(R)|      SLOW  |         6.068(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<3> |        13.234(R)|      SLOW  |         6.254(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<4> |        13.061(R)|      SLOW  |         6.167(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<5> |        13.384(R)|      SLOW  |         6.396(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<6> |        13.366(R)|      SLOW  |         6.369(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<7> |        13.426(R)|      SLOW  |         6.389(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<8> |        13.382(R)|      SLOW  |         6.387(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<9> |        13.709(R)|      SLOW  |         6.607(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<10>|        13.724(R)|      SLOW  |         6.586(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<11>|        13.567(R)|      SLOW  |         6.530(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<12>|        13.726(R)|      SLOW  |         6.600(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<13>|        13.689(R)|      SLOW  |         6.556(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<14>|        13.682(R)|      SLOW  |         6.554(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+rfifo_rd_data<15>|        13.516(R)|      SLOW  |         6.476(R)|      FAST  |rfifo_rclk_BUFGP  |   0.000|
+-----------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock sclk to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+rfifo_rd_ready|        11.414(R)|      SLOW  |         5.127(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<0> |        13.356(R)|      SLOW  |         4.618(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<1> |        13.508(R)|      SLOW  |         4.343(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<2> |        13.818(R)|      SLOW  |         4.519(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<3> |        13.124(R)|      SLOW  |         4.392(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<4> |        12.699(R)|      SLOW  |         4.061(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<5> |        12.171(R)|      SLOW  |         3.846(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<6> |        12.597(R)|      SLOW  |         3.786(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<7> |        12.128(R)|      SLOW  |         3.933(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<8> |        14.123(R)|      SLOW  |         4.968(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<9> |        13.688(R)|      SLOW  |         5.223(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<10>|        14.295(R)|      SLOW  |         5.285(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<11>|        12.791(R)|      SLOW  |         4.229(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_addr<12>|        13.792(R)|      SLOW  |         4.760(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_cas_n   |        13.576(R)|      SLOW  |         5.476(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<0>   |        10.763(R)|      SLOW  |         4.306(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<1>   |        11.079(R)|      SLOW  |         4.676(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<2>   |        10.889(R)|      SLOW  |         4.421(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<3>   |        11.229(R)|      SLOW  |         4.782(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<4>   |        12.267(R)|      SLOW  |         5.511(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<5>   |        12.267(R)|      SLOW  |         5.511(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<6>   |        12.415(R)|      SLOW  |         5.527(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<7>   |        13.435(R)|      SLOW  |         5.857(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<8>   |        13.435(R)|      SLOW  |         5.985(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<9>   |        13.676(R)|      SLOW  |         5.897(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<10>  |        13.676(R)|      SLOW  |         5.888(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<11>  |        13.324(R)|      SLOW  |         5.932(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<12>  |        13.317(R)|      SLOW  |         5.850(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<13>  |        13.334(R)|      SLOW  |         5.927(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<14>  |        13.334(R)|      SLOW  |         5.884(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_dq<15>  |        14.244(R)|      SLOW  |         6.149(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_ras_n   |        13.465(R)|      SLOW  |         5.489(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+sdram_we_n    |        14.941(R)|      SLOW  |         5.699(R)|      FAST  |sclk_IBUF_BUFG    |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock rfifo_rclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+rfifo_rclk     |    3.327|         |         |         |
+sclk           |         |    2.647|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+rfifo_rclk     |         |         |    2.530|         |
+sclk           |    4.495|    2.059|    4.053|    4.598|
+wfifo_wclk     |    2.920|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock wfifo_wclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sclk           |    2.751|         |         |         |
+wfifo_wclk     |    3.641|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+sclk           |sdram_clk      |   11.279|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Aug 07 14:53:00 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4573 MB
+
+
+

@@ -1,0 +1,208 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Study/FPGA/opensoc/first/my_sdram_project/wenhong_SDRAM/uart/uart_rx/sim
+T_opt
+!s110 1533602285
+VCoWI6?APLbg`@1c3YN9153
+04 12 4 work tb_sdram_top fast 0
+=1-f832e442239b-5b68e9ed-111-6b8
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+vsdram_aref
+Z1 !s110 1533602283
+!i10b 1
+!s100 MKRTQBG7<oJg8UCb8FPIV1
+IlB^@:b@37`N@cbjY09P550
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/13622/Desktop/my_pro_t/sdram_clk_100m/sdram_100m/sim
+w1533438602
+8../src/sdram_aref.v
+F../src/sdram_aref.v
+L0 1
+Z4 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z5 !s108 1533602282.000000
+Z6 !s107 ../src/vga_drive.v|../src/top.v|../src/sdram_write.v|../src/sdram_top.v|../src/sdram_read.v|../src/sdram_init.v|../src/sdram_aref.v|
+Z7 !s90 -reportprogress|300|../src/sdram_aref.v|../src/sdram_init.v|../src/sdram_read.v|../src/sdram_top.v|../src/sdram_write.v|../src/top.v|../src/vga_drive.v|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vsdram_init
+R1
+!i10b 1
+!s100 Q?OCcS?ZPe2M38UMPjJnW1
+IkWWmM[co>DA:30WaYWCJe1
+R2
+R3
+w1533602280
+8../src/sdram_init.v
+F../src/sdram_init.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R0
+vsdram_model_plus
+R1
+!i10b 1
+!s100 Q=9=k^KQZzYX]MAPNSL3D2
+I3Va]e6:b8UKR:Q0V4QD6:0
+R2
+R3
+w1452222315
+8./sdram_model_plus.v
+F./sdram_model_plus.v
+L0 56
+R4
+r1
+!s85 0
+31
+Z9 !s108 1533602283.000000
+Z10 !s107 ./tb_sdram_top.v|./sdram_model_plus.v|
+Z11 !s90 -reportprogress|300|./sdram_model_plus.v|./tb_sdram_top.v|
+!i113 0
+R8
+R0
+vsdram_read
+R1
+!i10b 1
+!s100 Wf2JaeDCif0ULcbz16dG>0
+I]V=D7fK[N8z4BWgYSahob3
+R2
+R3
+w1533448639
+8../src/sdram_read.v
+F../src/sdram_read.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R0
+vsdram_top
+R1
+!i10b 1
+!s100 1:BMfX2k6a?h3H7oF7<Sb0
+I?8BECb6L@Ti9`gRCZ;3@U2
+R2
+R3
+w1533432312
+8../src/sdram_top.v
+F../src/sdram_top.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R0
+vsdram_write
+R1
+!i10b 1
+!s100 S8`XK[;]Q9Ro88aIF=zB?3
+I5GR15f_g;cha^Zj4UEKlF3
+R2
+R3
+w1533447649
+8../src/sdram_write.v
+F../src/sdram_write.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R0
+vtb_sdram_top
+R1
+!i10b 1
+!s100 VA8GKNkF@24bl]KQWW`0K1
+IGiC>>6gVN=<Q84LLA:[C>2
+R2
+R3
+w1533447780
+8./tb_sdram_top.v
+F./tb_sdram_top.v
+L0 3
+R4
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R8
+R0
+vtop
+R1
+!i10b 1
+!s100 >V7WK<ooHEY^^@]X>SV[70
+I1GjKiP_9@2MC[OdHKC`;52
+R2
+R3
+w1532434241
+8../src/top.v
+F../src/top.v
+Z12 L0 24
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R0
+vvga_drive
+R1
+!i10b 1
+!s100 U:a9aU8dn_2JJ:R08CXJ<3
+IcIUVZ78i1E8iDOC8mOQPJ3
+R2
+R3
+w1533274959
+8../src/vga_drive.v
+F../src/vga_drive.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R0

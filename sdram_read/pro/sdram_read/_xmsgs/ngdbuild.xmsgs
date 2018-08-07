@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DOA_REG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DOB_REG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_04</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_05</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_06</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_07</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_08</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_09</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_10</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_11</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_12</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_13</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_14</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_15</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_16</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_17</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_18</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_19</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_FILE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RAM_MODE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">auto_write_read_inst/rdfifo_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&apos; with type &apos;<arg fmt="%s" index="3">RAMB8BWER</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">RAMB8BWER</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">qartix7</arg>&apos;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DOA_REG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DOB_REG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_04</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_05</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_06</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_07</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_08</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_09</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_10</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_11</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_12</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_13</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_14</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_15</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_16</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_17</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_18</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_19</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_FILE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RAM_MODE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">auto_write_read_inst/wdfifo_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram</arg>&apos; with type &apos;<arg fmt="%s" index="3">RAMB8BWER</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">RAMB8BWER</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">qartix7</arg>&apos;.
+</msg>
+
+</messages>
+

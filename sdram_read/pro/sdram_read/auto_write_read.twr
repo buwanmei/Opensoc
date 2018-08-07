@@ -1,0 +1,122 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\ise\xin\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml auto_write_read.twx auto_write_read.ncd -o
+auto_write_read.twr auto_write_read.pcf
+
+Design file:              auto_write_read.ncd
+Physical constraint file: auto_write_read.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock wfifo_rclk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+s_rst_n     |    2.542(R)|      SLOW  |    0.802(R)|      SLOW  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_en |    3.591(R)|      SLOW  |   -0.966(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock wfifo_wclk
+----------------+------------+------------+------------+------------+------------------+--------+
+                |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source          | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+----------------+------------+------------+------------+------------+------------------+--------+
+s_rst_n         |    2.620(R)|      SLOW  |   -0.842(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wfifo_wr_en     |    3.907(R)|      SLOW  |   -0.740(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<0> |    2.995(R)|      SLOW  |   -0.884(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<1> |    2.977(R)|      SLOW  |   -0.883(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<2> |    2.986(R)|      SLOW  |   -0.875(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<3> |    3.451(R)|      SLOW  |   -1.281(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<4> |    2.980(R)|      SLOW  |   -0.885(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<5> |    3.323(R)|      SLOW  |   -1.083(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<6> |    2.736(R)|      SLOW  |   -0.727(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<7> |    3.142(R)|      SLOW  |   -1.072(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<8> |    3.272(R)|      SLOW  |   -1.138(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<9> |    3.196(R)|      SLOW  |   -1.119(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<10>|    3.371(R)|      SLOW  |   -1.152(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<11>|    3.278(R)|      SLOW  |   -1.105(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<12>|    3.627(R)|      SLOW  |   -1.391(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<13>|    3.838(R)|      SLOW  |   -1.460(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<14>|    3.328(R)|      SLOW  |   -1.193(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+wifo_wr_data<15>|    3.761(R)|      SLOW  |   -1.398(R)|      FAST  |wfifo_wclk_BUFGP  |   0.000|
+----------------+------------+------------+------------+------------+------------------+--------+
+
+Clock wfifo_rclk to Pad
+-----------------+-----------------+------------+-----------------+------------+------------------+--------+
+                 |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination      |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-----------------+-----------------+------------+-----------------+------------+------------------+--------+
+wfifo_rd_data<0> |        13.424(R)|      SLOW  |         6.424(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<1> |        13.411(R)|      SLOW  |         6.395(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<2> |        13.896(R)|      SLOW  |         6.697(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<3> |        13.734(R)|      SLOW  |         6.596(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<4> |        13.935(R)|      SLOW  |         6.706(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<5> |        13.759(R)|      SLOW  |         6.601(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<6> |        14.236(R)|      SLOW  |         6.897(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<7> |        13.847(R)|      SLOW  |         6.618(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<8> |        13.522(R)|      SLOW  |         6.502(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<9> |        13.747(R)|      SLOW  |         6.641(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<10>|        13.400(R)|      SLOW  |         6.392(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<11>|        13.182(R)|      SLOW  |         6.260(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<12>|        13.137(R)|      SLOW  |         6.227(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<13>|        13.288(R)|      SLOW  |         6.267(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<14>|        13.263(R)|      SLOW  |         6.257(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wfifo_rd_data<15>|        11.960(R)|      SLOW  |         5.594(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+wr_trig          |         7.864(R)|      SLOW  |         2.900(R)|      FAST  |wfifo_rclk_BUFGP  |   0.000|
+-----------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock wfifo_rclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+wfifo_rclk     |    3.175|         |         |         |
+wfifo_wclk     |    3.510|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock wfifo_wclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+wfifo_rclk     |    2.585|         |         |         |
+wfifo_wclk     |    3.883|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Aug 06 14:44:02 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4572 MB
+
+
+

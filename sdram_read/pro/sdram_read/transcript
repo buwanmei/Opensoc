@@ -1,0 +1,1188 @@
+# Reading D:/modelsim/xin/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {tb_sdram_top.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:53:05 on Aug 07,2018
+# vlog -reportprogress 300 ../../src/sdram_write.v 
+# -- Compiling module sdram_write
+# 
+# Top level modules:
+# 	sdram_write
+# End time: 15:53:05 on Aug 07,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:53:05 on Aug 07,2018
+# vlog -reportprogress 300 ../../src/sdram_read.v 
+# -- Compiling module sdram_read
+# 
+# Top level modules:
+# 	sdram_read
+# End time: 15:53:05 on Aug 07,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:53:05 on Aug 07,2018
+# vlog -reportprogress 300 ../../src/sdram_init.v 
+# -- Compiling module sdram_init
+# 
+# Top level modules:
+# 	sdram_init
+# End time: 15:53:05 on Aug 07,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:53:05 on Aug 07,2018
+# vlog -reportprogress 300 ../../src/sdram_aref.v 
+# -- Compiling module sdram_aref
+# 
+# Top level modules:
+# 	sdram_aref
+# End time: 15:53:05 on Aug 07,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:53:05 on Aug 07,2018
+# vlog -reportprogress 300 ../../src/auto_write_read.v 
+# -- Compiling module auto_write_read
+# 
+# Top level modules:
+# 	auto_write_read
+# End time: 15:53:06 on Aug 07,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:53:06 on Aug 07,2018
+# vlog -reportprogress 300 ../../work/sdram_model_plus.v 
+# -- Compiling module sdram_model_plus
+# 
+# Top level modules:
+# 	sdram_model_plus
+# End time: 15:53:06 on Aug 07,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:53:06 on Aug 07,2018
+# vlog -reportprogress 300 ../../src/sdram_top.v 
+# -- Compiling module sdram_top
+# 
+# Top level modules:
+# 	sdram_top
+# End time: 15:53:06 on Aug 07,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:53:06 on Aug 07,2018
+# vlog -reportprogress 300 ../../work/tb_sdram_top.v 
+# -- Compiling module tb_sdram_top
+# 
+# Top level modules:
+# 	tb_sdram_top
+# End time: 15:53:06 on Aug 07,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:53:06 on Aug 07,2018
+# vlog -reportprogress 300 D:/ise/xin/14.7/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 15:53:06 on Aug 07,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -gui -do "do {tb_sdram_top.fdo}" 
+# Start time: 15:53:06 on Aug 07,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: ../../work/sdram_model_plus.v(867): (vopt-2697) MSB of part-select into 'Dq_dqm' is out of bounds.
+# 
+# ** Warning: ../../work/sdram_model_plus.v(867): (vopt-2697) LSB of part-select into 'Dq_dqm' is out of bounds.
+# 
+# ** Warning: ../../work/sdram_model_plus.v(868): (vopt-2697) MSB of part-select into 'Dq_dqm' is out of bounds.
+# 
+# ** Warning: ../../work/sdram_model_plus.v(868): (vopt-2697) LSB of part-select into 'Dq_dqm' is out of bounds.
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "sdram_read(fast)".
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "sdram_write(fast)".
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "sdram_top(fast)".
+# 
+# Loading work.tb_sdram_top(fast)
+# Loading work.sdram_top(fast)
+# Loading work.sdram_init(fast)
+# Loading work.sdram_aref(fast)
+# Loading work.sdram_write(fast)
+# Loading work.sdram_read(fast)
+# Loading work.auto_write_read(fast)
+# Loading work.wfifo_512x16(fast)
+# Loading xilinxcorelib_ver.FIFO_GENERATOR_V9_3(fast)
+# Loading xilinxcorelib_ver.FIFO_GENERATOR_V9_3_CONV_VER(fast)
+# Loading xilinxcorelib_ver.fifo_generator_v9_3_bhv_ver_as(fast)
+# Loading xilinxcorelib_ver.fifo_generator_v9_3_sync_stage(fast)
+# Loading work.sdram_model_plus(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) ../../work/tb_sdram_top.v(137): [PCDPC] - Port size (4) does not match connection size (2) for port 'Dqm'. The port definition is at: ../../work/sdram_model_plus.v(56).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sdram_top/sdram_model_plus_inst File: ../../work/sdram_model_plus.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+run 204us
+# at time    200115 ns PRE  : Bank = ALL
+# at time    200135 ns AREF : Auto Refresh
+# at time    200215 ns AREF : Auto Refresh
+# at time    200295 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 4
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+run 10us
+# at time    215345 ns AREF : Auto Refresh
+run 15us
+# at time    225235 ns ACT  : Bank = 0 Row =    0
+# at time    225285 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     1, Dqm = zz00
+# at time    225295 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =     2, Dqm = zz00
+# at time    225305 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =     3, Dqm = zz00
+# at time    225315 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =     4, Dqm = zz00
+# at time    225325 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =     5, Dqm = zz00
+# at time    225335 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =     6, Dqm = zz00
+# at time    225345 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =     7, Dqm = zz00
+# at time    225355 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =     8, Dqm = zz00
+# at time    225365 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =     9, Dqm = zz00
+# at time    225375 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =    10, Dqm = zz00
+# at time    225385 ns WRITE: Bank = 0 Row =    0, Col =  10, Data =    11, Dqm = zz00
+# at time    225395 ns WRITE: Bank = 0 Row =    0, Col =  11, Data =    12, Dqm = zz00
+# at time    225405 ns WRITE: Bank = 0 Row =    0, Col =  12, Data =    13, Dqm = zz00
+# at time    225415 ns WRITE: Bank = 0 Row =    0, Col =  13, Data =    14, Dqm = zz00
+# at time    225425 ns WRITE: Bank = 0 Row =    0, Col =  14, Data =    15, Dqm = zz00
+# at time    225435 ns WRITE: Bank = 0 Row =    0, Col =  15, Data =    16, Dqm = zz00
+# at time    225445 ns WRITE: Bank = 0 Row =    0, Col =  16, Data =    17, Dqm = zz00
+# at time    225455 ns WRITE: Bank = 0 Row =    0, Col =  17, Data =    18, Dqm = zz00
+# at time    225465 ns WRITE: Bank = 0 Row =    0, Col =  18, Data =    19, Dqm = zz00
+# at time    225475 ns WRITE: Bank = 0 Row =    0, Col =  19, Data =    20, Dqm = zz00
+# at time    225485 ns WRITE: Bank = 0 Row =    0, Col =  20, Data =    21, Dqm = zz00
+# at time    225495 ns WRITE: Bank = 0 Row =    0, Col =  21, Data =    22, Dqm = zz00
+# at time    225505 ns WRITE: Bank = 0 Row =    0, Col =  22, Data =    23, Dqm = zz00
+# at time    225515 ns WRITE: Bank = 0 Row =    0, Col =  23, Data =    24, Dqm = zz00
+# at time    225525 ns WRITE: Bank = 0 Row =    0, Col =  24, Data =    25, Dqm = zz00
+# at time    225535 ns WRITE: Bank = 0 Row =    0, Col =  25, Data =    26, Dqm = zz00
+# at time    225545 ns WRITE: Bank = 0 Row =    0, Col =  26, Data =    27, Dqm = zz00
+# at time    225555 ns WRITE: Bank = 0 Row =    0, Col =  27, Data =    28, Dqm = zz00
+# at time    225565 ns WRITE: Bank = 0 Row =    0, Col =  28, Data =    29, Dqm = zz00
+# at time    225575 ns WRITE: Bank = 0 Row =    0, Col =  29, Data =    30, Dqm = zz00
+# at time    225585 ns WRITE: Bank = 0 Row =    0, Col =  30, Data =    31, Dqm = zz00
+# at time    225595 ns WRITE: Bank = 0 Row =    0, Col =  31, Data =    32, Dqm = zz00
+# at time    225605 ns WRITE: Bank = 0 Row =    0, Col =  32, Data =    33, Dqm = zz00
+# at time    225615 ns WRITE: Bank = 0 Row =    0, Col =  33, Data =    34, Dqm = zz00
+# at time    225625 ns WRITE: Bank = 0 Row =    0, Col =  34, Data =    35, Dqm = zz00
+# at time    225635 ns WRITE: Bank = 0 Row =    0, Col =  35, Data =    36, Dqm = zz00
+# at time    225645 ns WRITE: Bank = 0 Row =    0, Col =  36, Data =    37, Dqm = zz00
+# at time    225655 ns WRITE: Bank = 0 Row =    0, Col =  37, Data =    38, Dqm = zz00
+# at time    225665 ns WRITE: Bank = 0 Row =    0, Col =  38, Data =    39, Dqm = zz00
+# at time    225675 ns WRITE: Bank = 0 Row =    0, Col =  39, Data =    40, Dqm = zz00
+# at time    225685 ns WRITE: Bank = 0 Row =    0, Col =  40, Data =    41, Dqm = zz00
+# at time    225695 ns WRITE: Bank = 0 Row =    0, Col =  41, Data =    42, Dqm = zz00
+# at time    225705 ns WRITE: Bank = 0 Row =    0, Col =  42, Data =    43, Dqm = zz00
+# at time    225715 ns WRITE: Bank = 0 Row =    0, Col =  43, Data =    44, Dqm = zz00
+# at time    225725 ns WRITE: Bank = 0 Row =    0, Col =  44, Data =    45, Dqm = zz00
+# at time    225735 ns WRITE: Bank = 0 Row =    0, Col =  45, Data =    46, Dqm = zz00
+# at time    225745 ns WRITE: Bank = 0 Row =    0, Col =  46, Data =    47, Dqm = zz00
+# at time    225755 ns WRITE: Bank = 0 Row =    0, Col =  47, Data =    48, Dqm = zz00
+# at time    225765 ns WRITE: Bank = 0 Row =    0, Col =  48, Data =    49, Dqm = zz00
+# at time    225775 ns WRITE: Bank = 0 Row =    0, Col =  49, Data =    50, Dqm = zz00
+# at time    225785 ns WRITE: Bank = 0 Row =    0, Col =  50, Data =    51, Dqm = zz00
+# at time    225795 ns WRITE: Bank = 0 Row =    0, Col =  51, Data =    52, Dqm = zz00
+# at time    225805 ns WRITE: Bank = 0 Row =    0, Col =  52, Data =    53, Dqm = zz00
+# at time    225815 ns WRITE: Bank = 0 Row =    0, Col =  53, Data =    54, Dqm = zz00
+# at time    225825 ns WRITE: Bank = 0 Row =    0, Col =  54, Data =    55, Dqm = zz00
+# at time    225835 ns WRITE: Bank = 0 Row =    0, Col =  55, Data =    56, Dqm = zz00
+# at time    225845 ns WRITE: Bank = 0 Row =    0, Col =  56, Data =    57, Dqm = zz00
+# at time    225855 ns WRITE: Bank = 0 Row =    0, Col =  57, Data =    58, Dqm = zz00
+# at time    225865 ns WRITE: Bank = 0 Row =    0, Col =  58, Data =    59, Dqm = zz00
+# at time    225875 ns WRITE: Bank = 0 Row =    0, Col =  59, Data =    60, Dqm = zz00
+# at time    225885 ns WRITE: Bank = 0 Row =    0, Col =  60, Data =    61, Dqm = zz00
+# at time    225895 ns WRITE: Bank = 0 Row =    0, Col =  61, Data =    62, Dqm = zz00
+# at time    225905 ns WRITE: Bank = 0 Row =    0, Col =  62, Data =    63, Dqm = zz00
+# at time    225915 ns WRITE: Bank = 0 Row =    0, Col =  63, Data =    64, Dqm = zz00
+# at time    225925 ns WRITE: Bank = 0 Row =    0, Col =  64, Data =    65, Dqm = zz00
+# at time    225935 ns WRITE: Bank = 0 Row =    0, Col =  65, Data =    66, Dqm = zz00
+# at time    225945 ns WRITE: Bank = 0 Row =    0, Col =  66, Data =    67, Dqm = zz00
+# at time    225955 ns WRITE: Bank = 0 Row =    0, Col =  67, Data =    68, Dqm = zz00
+# at time    225965 ns WRITE: Bank = 0 Row =    0, Col =  68, Data =    69, Dqm = zz00
+# at time    225975 ns WRITE: Bank = 0 Row =    0, Col =  69, Data =    70, Dqm = zz00
+# at time    225985 ns WRITE: Bank = 0 Row =    0, Col =  70, Data =    71, Dqm = zz00
+# at time    225995 ns WRITE: Bank = 0 Row =    0, Col =  71, Data =    72, Dqm = zz00
+# at time    226005 ns WRITE: Bank = 0 Row =    0, Col =  72, Data =    73, Dqm = zz00
+# at time    226015 ns WRITE: Bank = 0 Row =    0, Col =  73, Data =    74, Dqm = zz00
+# at time    226025 ns WRITE: Bank = 0 Row =    0, Col =  74, Data =    75, Dqm = zz00
+# at time    226035 ns WRITE: Bank = 0 Row =    0, Col =  75, Data =    76, Dqm = zz00
+# at time    226045 ns WRITE: Bank = 0 Row =    0, Col =  76, Data =    77, Dqm = zz00
+# at time    226055 ns WRITE: Bank = 0 Row =    0, Col =  77, Data =    78, Dqm = zz00
+# at time    226065 ns WRITE: Bank = 0 Row =    0, Col =  78, Data =    79, Dqm = zz00
+# at time    226075 ns WRITE: Bank = 0 Row =    0, Col =  79, Data =    80, Dqm = zz00
+# at time    226085 ns WRITE: Bank = 0 Row =    0, Col =  80, Data =    81, Dqm = zz00
+# at time    226095 ns WRITE: Bank = 0 Row =    0, Col =  81, Data =    82, Dqm = zz00
+# at time    226105 ns WRITE: Bank = 0 Row =    0, Col =  82, Data =    83, Dqm = zz00
+# at time    226115 ns WRITE: Bank = 0 Row =    0, Col =  83, Data =    84, Dqm = zz00
+# at time    226125 ns WRITE: Bank = 0 Row =    0, Col =  84, Data =    85, Dqm = zz00
+# at time    226135 ns WRITE: Bank = 0 Row =    0, Col =  85, Data =    86, Dqm = zz00
+# at time    226145 ns WRITE: Bank = 0 Row =    0, Col =  86, Data =    87, Dqm = zz00
+# at time    226155 ns WRITE: Bank = 0 Row =    0, Col =  87, Data =    88, Dqm = zz00
+# at time    226165 ns WRITE: Bank = 0 Row =    0, Col =  88, Data =    89, Dqm = zz00
+# at time    226175 ns WRITE: Bank = 0 Row =    0, Col =  89, Data =    90, Dqm = zz00
+# at time    226185 ns WRITE: Bank = 0 Row =    0, Col =  90, Data =    91, Dqm = zz00
+# at time    226195 ns WRITE: Bank = 0 Row =    0, Col =  91, Data =    92, Dqm = zz00
+# at time    226205 ns WRITE: Bank = 0 Row =    0, Col =  92, Data =    93, Dqm = zz00
+# at time    226215 ns WRITE: Bank = 0 Row =    0, Col =  93, Data =    94, Dqm = zz00
+# at time    226225 ns WRITE: Bank = 0 Row =    0, Col =  94, Data =    95, Dqm = zz00
+# at time    226235 ns WRITE: Bank = 0 Row =    0, Col =  95, Data =    96, Dqm = zz00
+# at time    226245 ns WRITE: Bank = 0 Row =    0, Col =  96, Data =    97, Dqm = zz00
+# at time    226255 ns WRITE: Bank = 0 Row =    0, Col =  97, Data =    98, Dqm = zz00
+# at time    226265 ns WRITE: Bank = 0 Row =    0, Col =  98, Data =    99, Dqm = zz00
+# at time    226275 ns WRITE: Bank = 0 Row =    0, Col =  99, Data =   100, Dqm = zz00
+# at time    226285 ns WRITE: Bank = 0 Row =    0, Col = 100, Data =   101, Dqm = zz00
+# at time    226295 ns WRITE: Bank = 0 Row =    0, Col = 101, Data =   102, Dqm = zz00
+# at time    226305 ns WRITE: Bank = 0 Row =    0, Col = 102, Data =   103, Dqm = zz00
+# at time    226315 ns WRITE: Bank = 0 Row =    0, Col = 103, Data =   104, Dqm = zz00
+# at time    226325 ns WRITE: Bank = 0 Row =    0, Col = 104, Data =   105, Dqm = zz00
+# at time    226335 ns WRITE: Bank = 0 Row =    0, Col = 105, Data =   106, Dqm = zz00
+# at time    226345 ns WRITE: Bank = 0 Row =    0, Col = 106, Data =   107, Dqm = zz00
+# at time    226355 ns WRITE: Bank = 0 Row =    0, Col = 107, Data =   108, Dqm = zz00
+# at time    226365 ns WRITE: Bank = 0 Row =    0, Col = 108, Data =   109, Dqm = zz00
+# at time    226375 ns WRITE: Bank = 0 Row =    0, Col = 109, Data =   110, Dqm = zz00
+# at time    226385 ns WRITE: Bank = 0 Row =    0, Col = 110, Data =   111, Dqm = zz00
+# at time    226395 ns WRITE: Bank = 0 Row =    0, Col = 111, Data =   112, Dqm = zz00
+# at time    226405 ns WRITE: Bank = 0 Row =    0, Col = 112, Data =   113, Dqm = zz00
+# at time    226415 ns WRITE: Bank = 0 Row =    0, Col = 113, Data =   114, Dqm = zz00
+# at time    226425 ns WRITE: Bank = 0 Row =    0, Col = 114, Data =   115, Dqm = zz00
+# at time    226435 ns WRITE: Bank = 0 Row =    0, Col = 115, Data =   116, Dqm = zz00
+# at time    226445 ns WRITE: Bank = 0 Row =    0, Col = 116, Data =   117, Dqm = zz00
+# at time    226455 ns WRITE: Bank = 0 Row =    0, Col = 117, Data =   118, Dqm = zz00
+# at time    226465 ns WRITE: Bank = 0 Row =    0, Col = 118, Data =   119, Dqm = zz00
+# at time    226475 ns WRITE: Bank = 0 Row =    0, Col = 119, Data =   120, Dqm = zz00
+# at time    226485 ns WRITE: Bank = 0 Row =    0, Col = 120, Data =   121, Dqm = zz00
+# at time    226495 ns WRITE: Bank = 0 Row =    0, Col = 121, Data =   122, Dqm = zz00
+# at time    226505 ns WRITE: Bank = 0 Row =    0, Col = 122, Data =   123, Dqm = zz00
+# at time    226515 ns WRITE: Bank = 0 Row =    0, Col = 123, Data =   124, Dqm = zz00
+# at time    226525 ns WRITE: Bank = 0 Row =    0, Col = 124, Data =   125, Dqm = zz00
+# at time    226535 ns WRITE: Bank = 0 Row =    0, Col = 125, Data =   126, Dqm = zz00
+# at time    226545 ns WRITE: Bank = 0 Row =    0, Col = 126, Data =   127, Dqm = zz00
+# at time    226555 ns WRITE: Bank = 0 Row =    0, Col = 127, Data =   128, Dqm = zz00
+# at time    226565 ns WRITE: Bank = 0 Row =    0, Col = 128, Data =   129, Dqm = zz00
+# at time    226575 ns WRITE: Bank = 0 Row =    0, Col = 129, Data =   130, Dqm = zz00
+# at time    226585 ns WRITE: Bank = 0 Row =    0, Col = 130, Data =   131, Dqm = zz00
+# at time    226595 ns WRITE: Bank = 0 Row =    0, Col = 131, Data =   132, Dqm = zz00
+# at time    226605 ns WRITE: Bank = 0 Row =    0, Col = 132, Data =   133, Dqm = zz00
+# at time    226615 ns WRITE: Bank = 0 Row =    0, Col = 133, Data =   134, Dqm = zz00
+# at time    226625 ns WRITE: Bank = 0 Row =    0, Col = 134, Data =   135, Dqm = zz00
+# at time    226635 ns WRITE: Bank = 0 Row =    0, Col = 135, Data =   136, Dqm = zz00
+# at time    226645 ns WRITE: Bank = 0 Row =    0, Col = 136, Data =   137, Dqm = zz00
+# at time    226655 ns WRITE: Bank = 0 Row =    0, Col = 137, Data =   138, Dqm = zz00
+# at time    226665 ns WRITE: Bank = 0 Row =    0, Col = 138, Data =   139, Dqm = zz00
+# at time    226675 ns WRITE: Bank = 0 Row =    0, Col = 139, Data =   140, Dqm = zz00
+# at time    226685 ns WRITE: Bank = 0 Row =    0, Col = 140, Data =   141, Dqm = zz00
+# at time    226695 ns WRITE: Bank = 0 Row =    0, Col = 141, Data =   142, Dqm = zz00
+# at time    226705 ns WRITE: Bank = 0 Row =    0, Col = 142, Data =   143, Dqm = zz00
+# at time    226715 ns WRITE: Bank = 0 Row =    0, Col = 143, Data =   144, Dqm = zz00
+# at time    226725 ns WRITE: Bank = 0 Row =    0, Col = 144, Data =   145, Dqm = zz00
+# at time    226735 ns WRITE: Bank = 0 Row =    0, Col = 145, Data =   146, Dqm = zz00
+# at time    226745 ns WRITE: Bank = 0 Row =    0, Col = 146, Data =   147, Dqm = zz00
+# at time    226755 ns WRITE: Bank = 0 Row =    0, Col = 147, Data =   148, Dqm = zz00
+# at time    226765 ns WRITE: Bank = 0 Row =    0, Col = 148, Data =   149, Dqm = zz00
+# at time    226775 ns WRITE: Bank = 0 Row =    0, Col = 149, Data =   150, Dqm = zz00
+# at time    226785 ns WRITE: Bank = 0 Row =    0, Col = 150, Data =   151, Dqm = zz00
+# at time    226795 ns WRITE: Bank = 0 Row =    0, Col = 151, Data =   152, Dqm = zz00
+# at time    226805 ns WRITE: Bank = 0 Row =    0, Col = 152, Data =   153, Dqm = zz00
+# at time    226815 ns WRITE: Bank = 0 Row =    0, Col = 153, Data =   154, Dqm = zz00
+# at time    226825 ns WRITE: Bank = 0 Row =    0, Col = 154, Data =   155, Dqm = zz00
+# at time    226835 ns WRITE: Bank = 0 Row =    0, Col = 155, Data =   156, Dqm = zz00
+# at time    226845 ns WRITE: Bank = 0 Row =    0, Col = 156, Data =   157, Dqm = zz00
+# at time    226855 ns WRITE: Bank = 0 Row =    0, Col = 157, Data =   158, Dqm = zz00
+# at time    226865 ns WRITE: Bank = 0 Row =    0, Col = 158, Data =   159, Dqm = zz00
+# at time    226875 ns WRITE: Bank = 0 Row =    0, Col = 159, Data =   160, Dqm = zz00
+# at time    226885 ns WRITE: Bank = 0 Row =    0, Col = 160, Data =   161, Dqm = zz00
+# at time    226895 ns WRITE: Bank = 0 Row =    0, Col = 161, Data =   162, Dqm = zz00
+# at time    226905 ns WRITE: Bank = 0 Row =    0, Col = 162, Data =   163, Dqm = zz00
+# at time    226915 ns WRITE: Bank = 0 Row =    0, Col = 163, Data =   164, Dqm = zz00
+# at time    226925 ns WRITE: Bank = 0 Row =    0, Col = 164, Data =   165, Dqm = zz00
+# at time    226935 ns WRITE: Bank = 0 Row =    0, Col = 165, Data =   166, Dqm = zz00
+# at time    226945 ns WRITE: Bank = 0 Row =    0, Col = 166, Data =   167, Dqm = zz00
+# at time    226955 ns WRITE: Bank = 0 Row =    0, Col = 167, Data =   168, Dqm = zz00
+# at time    226965 ns WRITE: Bank = 0 Row =    0, Col = 168, Data =   169, Dqm = zz00
+# at time    226975 ns WRITE: Bank = 0 Row =    0, Col = 169, Data =   170, Dqm = zz00
+# at time    226985 ns WRITE: Bank = 0 Row =    0, Col = 170, Data =   171, Dqm = zz00
+# at time    226995 ns WRITE: Bank = 0 Row =    0, Col = 171, Data =   172, Dqm = zz00
+# at time    227005 ns WRITE: Bank = 0 Row =    0, Col = 172, Data =   173, Dqm = zz00
+# at time    227015 ns WRITE: Bank = 0 Row =    0, Col = 173, Data =   174, Dqm = zz00
+# at time    227025 ns WRITE: Bank = 0 Row =    0, Col = 174, Data =   175, Dqm = zz00
+# at time    227035 ns WRITE: Bank = 0 Row =    0, Col = 175, Data =   176, Dqm = zz00
+# at time    227045 ns WRITE: Bank = 0 Row =    0, Col = 176, Data =   177, Dqm = zz00
+# at time    227055 ns WRITE: Bank = 0 Row =    0, Col = 177, Data =   178, Dqm = zz00
+# at time    227065 ns WRITE: Bank = 0 Row =    0, Col = 178, Data =   179, Dqm = zz00
+# at time    227075 ns WRITE: Bank = 0 Row =    0, Col = 179, Data =   180, Dqm = zz00
+# at time    227085 ns WRITE: Bank = 0 Row =    0, Col = 180, Data =   181, Dqm = zz00
+# at time    227095 ns WRITE: Bank = 0 Row =    0, Col = 181, Data =   182, Dqm = zz00
+# at time    227105 ns WRITE: Bank = 0 Row =    0, Col = 182, Data =   183, Dqm = zz00
+# at time    227115 ns WRITE: Bank = 0 Row =    0, Col = 183, Data =   184, Dqm = zz00
+# at time    227125 ns WRITE: Bank = 0 Row =    0, Col = 184, Data =   185, Dqm = zz00
+# at time    227135 ns WRITE: Bank = 0 Row =    0, Col = 185, Data =   186, Dqm = zz00
+# at time    227145 ns WRITE: Bank = 0 Row =    0, Col = 186, Data =   187, Dqm = zz00
+# at time    227155 ns WRITE: Bank = 0 Row =    0, Col = 187, Data =   188, Dqm = zz00
+# at time    227165 ns WRITE: Bank = 0 Row =    0, Col = 188, Data =   189, Dqm = zz00
+# at time    227175 ns WRITE: Bank = 0 Row =    0, Col = 189, Data =   190, Dqm = zz00
+# at time    227185 ns WRITE: Bank = 0 Row =    0, Col = 190, Data =   191, Dqm = zz00
+# at time    227195 ns WRITE: Bank = 0 Row =    0, Col = 191, Data =   192, Dqm = zz00
+# at time    227205 ns WRITE: Bank = 0 Row =    0, Col = 192, Data =   193, Dqm = zz00
+# at time    227215 ns WRITE: Bank = 0 Row =    0, Col = 193, Data =   194, Dqm = zz00
+# at time    227225 ns WRITE: Bank = 0 Row =    0, Col = 194, Data =   195, Dqm = zz00
+# at time    227235 ns WRITE: Bank = 0 Row =    0, Col = 195, Data =   196, Dqm = zz00
+# at time    227245 ns WRITE: Bank = 0 Row =    0, Col = 196, Data =   197, Dqm = zz00
+# at time    227255 ns WRITE: Bank = 0 Row =    0, Col = 197, Data =   198, Dqm = zz00
+# at time    227265 ns WRITE: Bank = 0 Row =    0, Col = 198, Data =   199, Dqm = zz00
+# at time    227275 ns WRITE: Bank = 0 Row =    0, Col = 199, Data =   200, Dqm = zz00
+# at time    227285 ns WRITE: Bank = 0 Row =    0, Col = 200, Data =   201, Dqm = zz00
+# at time    227295 ns WRITE: Bank = 0 Row =    0, Col = 201, Data =   202, Dqm = zz00
+# at time    227305 ns WRITE: Bank = 0 Row =    0, Col = 202, Data =   203, Dqm = zz00
+# at time    227315 ns WRITE: Bank = 0 Row =    0, Col = 203, Data =   204, Dqm = zz00
+# at time    227325 ns WRITE: Bank = 0 Row =    0, Col = 204, Data =   205, Dqm = zz00
+# at time    227335 ns WRITE: Bank = 0 Row =    0, Col = 205, Data =   206, Dqm = zz00
+# at time    227345 ns WRITE: Bank = 0 Row =    0, Col = 206, Data =   207, Dqm = zz00
+# at time    227355 ns WRITE: Bank = 0 Row =    0, Col = 207, Data =   208, Dqm = zz00
+# at time    227365 ns WRITE: Bank = 0 Row =    0, Col = 208, Data =   209, Dqm = zz00
+# at time    227375 ns WRITE: Bank = 0 Row =    0, Col = 209, Data =   210, Dqm = zz00
+# at time    227385 ns WRITE: Bank = 0 Row =    0, Col = 210, Data =   211, Dqm = zz00
+# at time    227395 ns WRITE: Bank = 0 Row =    0, Col = 211, Data =   212, Dqm = zz00
+# at time    227405 ns WRITE: Bank = 0 Row =    0, Col = 212, Data =   213, Dqm = zz00
+# at time    227415 ns WRITE: Bank = 0 Row =    0, Col = 213, Data =   214, Dqm = zz00
+# at time    227425 ns WRITE: Bank = 0 Row =    0, Col = 214, Data =   215, Dqm = zz00
+# at time    227435 ns WRITE: Bank = 0 Row =    0, Col = 215, Data =   216, Dqm = zz00
+# at time    227445 ns WRITE: Bank = 0 Row =    0, Col = 216, Data =   217, Dqm = zz00
+# at time    227455 ns WRITE: Bank = 0 Row =    0, Col = 217, Data =   218, Dqm = zz00
+# at time    227465 ns WRITE: Bank = 0 Row =    0, Col = 218, Data =   219, Dqm = zz00
+# at time    227475 ns WRITE: Bank = 0 Row =    0, Col = 219, Data =   220, Dqm = zz00
+# at time    227485 ns WRITE: Bank = 0 Row =    0, Col = 220, Data =   221, Dqm = zz00
+# at time    227495 ns WRITE: Bank = 0 Row =    0, Col = 221, Data =   222, Dqm = zz00
+# at time    227505 ns WRITE: Bank = 0 Row =    0, Col = 222, Data =   223, Dqm = zz00
+# at time    227515 ns WRITE: Bank = 0 Row =    0, Col = 223, Data =   224, Dqm = zz00
+# at time    227525 ns WRITE: Bank = 0 Row =    0, Col = 224, Data =   225, Dqm = zz00
+# at time    227535 ns WRITE: Bank = 0 Row =    0, Col = 225, Data =   226, Dqm = zz00
+# at time    227545 ns WRITE: Bank = 0 Row =    0, Col = 226, Data =   227, Dqm = zz00
+# at time    227555 ns WRITE: Bank = 0 Row =    0, Col = 227, Data =   228, Dqm = zz00
+# at time    227565 ns WRITE: Bank = 0 Row =    0, Col = 228, Data =   229, Dqm = zz00
+# at time    227575 ns WRITE: Bank = 0 Row =    0, Col = 229, Data =   230, Dqm = zz00
+# at time    227585 ns WRITE: Bank = 0 Row =    0, Col = 230, Data =   231, Dqm = zz00
+# at time    227595 ns WRITE: Bank = 0 Row =    0, Col = 231, Data =   232, Dqm = zz00
+# at time    227605 ns WRITE: Bank = 0 Row =    0, Col = 232, Data =   233, Dqm = zz00
+# at time    227615 ns WRITE: Bank = 0 Row =    0, Col = 233, Data =   234, Dqm = zz00
+# at time    227625 ns WRITE: Bank = 0 Row =    0, Col = 234, Data =   235, Dqm = zz00
+# at time    227635 ns WRITE: Bank = 0 Row =    0, Col = 235, Data =   236, Dqm = zz00
+# at time    227645 ns WRITE: Bank = 0 Row =    0, Col = 236, Data =   237, Dqm = zz00
+# at time    227655 ns WRITE: Bank = 0 Row =    0, Col = 237, Data =   238, Dqm = zz00
+# at time    227665 ns WRITE: Bank = 0 Row =    0, Col = 238, Data =   239, Dqm = zz00
+# at time    227675 ns WRITE: Bank = 0 Row =    0, Col = 239, Data =   240, Dqm = zz00
+# at time    227685 ns WRITE: Bank = 0 Row =    0, Col = 240, Data =   241, Dqm = zz00
+# at time    227695 ns WRITE: Bank = 0 Row =    0, Col = 241, Data =   242, Dqm = zz00
+# at time    227705 ns WRITE: Bank = 0 Row =    0, Col = 242, Data =   243, Dqm = zz00
+# at time    227715 ns WRITE: Bank = 0 Row =    0, Col = 243, Data =   244, Dqm = zz00
+# at time    227725 ns WRITE: Bank = 0 Row =    0, Col = 244, Data =   245, Dqm = zz00
+# at time    227735 ns WRITE: Bank = 0 Row =    0, Col = 245, Data =   246, Dqm = zz00
+# at time    227745 ns WRITE: Bank = 0 Row =    0, Col = 246, Data =   247, Dqm = zz00
+# at time    227755 ns WRITE: Bank = 0 Row =    0, Col = 247, Data =   248, Dqm = zz00
+# at time    227765 ns WRITE: Bank = 0 Row =    0, Col = 248, Data =   249, Dqm = zz00
+# at time    227775 ns WRITE: Bank = 0 Row =    0, Col = 249, Data =   250, Dqm = zz00
+# at time    227785 ns WRITE: Bank = 0 Row =    0, Col = 250, Data =   251, Dqm = zz00
+# at time    227795 ns WRITE: Bank = 0 Row =    0, Col = 251, Data =   252, Dqm = zz00
+# at time    227805 ns WRITE: Bank = 0 Row =    0, Col = 252, Data =   253, Dqm = zz00
+# at time    227815 ns WRITE: Bank = 0 Row =    0, Col = 253, Data =   254, Dqm = zz00
+# at time    227825 ns WRITE: Bank = 0 Row =    0, Col = 254, Data =   255, Dqm = zz00
+# at time    227835 ns WRITE: Bank = 0 Row =    0, Col = 255, Data =     0, Dqm = zz00
+# at time    227845 ns PRE  : Bank = 0
+# at time    227885 ns ACT  : Bank = 0 Row =    0
+# at time    227962 ns READ : Bank = 0 Row =    0, Col =   0, Data =     1, Dqm = zz00
+# at time    227972 ns READ : Bank = 0 Row =    0, Col =   1, Data =     2, Dqm = zz00
+# at time    227982 ns READ : Bank = 0 Row =    0, Col =   2, Data =     3, Dqm = zz00
+# at time    227992 ns READ : Bank = 0 Row =    0, Col =   3, Data =     4, Dqm = zz00
+# at time    228002 ns READ : Bank = 0 Row =    0, Col =   4, Data =     5, Dqm = zz00
+# at time    228012 ns READ : Bank = 0 Row =    0, Col =   5, Data =     6, Dqm = zz00
+# at time    228022 ns READ : Bank = 0 Row =    0, Col =   6, Data =     7, Dqm = zz00
+# at time    228032 ns READ : Bank = 0 Row =    0, Col =   7, Data =     8, Dqm = zz00
+# at time    228042 ns READ : Bank = 0 Row =    0, Col =   8, Data =     9, Dqm = zz00
+# at time    228052 ns READ : Bank = 0 Row =    0, Col =   9, Data =    10, Dqm = zz00
+# at time    228062 ns READ : Bank = 0 Row =    0, Col =  10, Data =    11, Dqm = zz00
+# at time    228072 ns READ : Bank = 0 Row =    0, Col =  11, Data =    12, Dqm = zz00
+# at time    228082 ns READ : Bank = 0 Row =    0, Col =  12, Data =    13, Dqm = zz00
+# at time    228092 ns READ : Bank = 0 Row =    0, Col =  13, Data =    14, Dqm = zz00
+# at time    228102 ns READ : Bank = 0 Row =    0, Col =  14, Data =    15, Dqm = zz00
+# at time    228112 ns READ : Bank = 0 Row =    0, Col =  15, Data =    16, Dqm = zz00
+# at time    228122 ns READ : Bank = 0 Row =    0, Col =  16, Data =    17, Dqm = zz00
+# at time    228132 ns READ : Bank = 0 Row =    0, Col =  17, Data =    18, Dqm = zz00
+# at time    228142 ns READ : Bank = 0 Row =    0, Col =  18, Data =    19, Dqm = zz00
+# at time    228152 ns READ : Bank = 0 Row =    0, Col =  19, Data =    20, Dqm = zz00
+# at time    228162 ns READ : Bank = 0 Row =    0, Col =  20, Data =    21, Dqm = zz00
+# at time    228172 ns READ : Bank = 0 Row =    0, Col =  21, Data =    22, Dqm = zz00
+# at time    228182 ns READ : Bank = 0 Row =    0, Col =  22, Data =    23, Dqm = zz00
+# at time    228192 ns READ : Bank = 0 Row =    0, Col =  23, Data =    24, Dqm = zz00
+# at time    228202 ns READ : Bank = 0 Row =    0, Col =  24, Data =    25, Dqm = zz00
+# at time    228212 ns READ : Bank = 0 Row =    0, Col =  25, Data =    26, Dqm = zz00
+# at time    228222 ns READ : Bank = 0 Row =    0, Col =  26, Data =    27, Dqm = zz00
+# at time    228232 ns READ : Bank = 0 Row =    0, Col =  27, Data =    28, Dqm = zz00
+# at time    228242 ns READ : Bank = 0 Row =    0, Col =  28, Data =    29, Dqm = zz00
+# at time    228252 ns READ : Bank = 0 Row =    0, Col =  29, Data =    30, Dqm = zz00
+# at time    228262 ns READ : Bank = 0 Row =    0, Col =  30, Data =    31, Dqm = zz00
+# at time    228272 ns READ : Bank = 0 Row =    0, Col =  31, Data =    32, Dqm = zz00
+# at time    228282 ns READ : Bank = 0 Row =    0, Col =  32, Data =    33, Dqm = zz00
+# at time    228292 ns READ : Bank = 0 Row =    0, Col =  33, Data =    34, Dqm = zz00
+# at time    228302 ns READ : Bank = 0 Row =    0, Col =  34, Data =    35, Dqm = zz00
+# at time    228312 ns READ : Bank = 0 Row =    0, Col =  35, Data =    36, Dqm = zz00
+# at time    228322 ns READ : Bank = 0 Row =    0, Col =  36, Data =    37, Dqm = zz00
+# at time    228332 ns READ : Bank = 0 Row =    0, Col =  37, Data =    38, Dqm = zz00
+# at time    228342 ns READ : Bank = 0 Row =    0, Col =  38, Data =    39, Dqm = zz00
+# at time    228352 ns READ : Bank = 0 Row =    0, Col =  39, Data =    40, Dqm = zz00
+# at time    228362 ns READ : Bank = 0 Row =    0, Col =  40, Data =    41, Dqm = zz00
+# at time    228372 ns READ : Bank = 0 Row =    0, Col =  41, Data =    42, Dqm = zz00
+# at time    228382 ns READ : Bank = 0 Row =    0, Col =  42, Data =    43, Dqm = zz00
+# at time    228392 ns READ : Bank = 0 Row =    0, Col =  43, Data =    44, Dqm = zz00
+# at time    228402 ns READ : Bank = 0 Row =    0, Col =  44, Data =    45, Dqm = zz00
+# at time    228412 ns READ : Bank = 0 Row =    0, Col =  45, Data =    46, Dqm = zz00
+# at time    228422 ns READ : Bank = 0 Row =    0, Col =  46, Data =    47, Dqm = zz00
+# at time    228432 ns READ : Bank = 0 Row =    0, Col =  47, Data =    48, Dqm = zz00
+# at time    228442 ns READ : Bank = 0 Row =    0, Col =  48, Data =    49, Dqm = zz00
+# at time    228452 ns READ : Bank = 0 Row =    0, Col =  49, Data =    50, Dqm = zz00
+# at time    228462 ns READ : Bank = 0 Row =    0, Col =  50, Data =    51, Dqm = zz00
+# at time    228472 ns READ : Bank = 0 Row =    0, Col =  51, Data =    52, Dqm = zz00
+# at time    228482 ns READ : Bank = 0 Row =    0, Col =  52, Data =    53, Dqm = zz00
+# at time    228492 ns READ : Bank = 0 Row =    0, Col =  53, Data =    54, Dqm = zz00
+# at time    228502 ns READ : Bank = 0 Row =    0, Col =  54, Data =    55, Dqm = zz00
+# at time    228512 ns READ : Bank = 0 Row =    0, Col =  55, Data =    56, Dqm = zz00
+# at time    228522 ns READ : Bank = 0 Row =    0, Col =  56, Data =    57, Dqm = zz00
+# at time    228532 ns READ : Bank = 0 Row =    0, Col =  57, Data =    58, Dqm = zz00
+# at time    228542 ns READ : Bank = 0 Row =    0, Col =  58, Data =    59, Dqm = zz00
+# at time    228552 ns READ : Bank = 0 Row =    0, Col =  59, Data =    60, Dqm = zz00
+# at time    228562 ns READ : Bank = 0 Row =    0, Col =  60, Data =    61, Dqm = zz00
+# at time    228572 ns READ : Bank = 0 Row =    0, Col =  61, Data =    62, Dqm = zz00
+# at time    228582 ns READ : Bank = 0 Row =    0, Col =  62, Data =    63, Dqm = zz00
+# at time    228592 ns READ : Bank = 0 Row =    0, Col =  63, Data =    64, Dqm = zz00
+# at time    228602 ns READ : Bank = 0 Row =    0, Col =  64, Data =    65, Dqm = zz00
+# at time    228612 ns READ : Bank = 0 Row =    0, Col =  65, Data =    66, Dqm = zz00
+# at time    228622 ns READ : Bank = 0 Row =    0, Col =  66, Data =    67, Dqm = zz00
+# at time    228632 ns READ : Bank = 0 Row =    0, Col =  67, Data =    68, Dqm = zz00
+# at time    228642 ns READ : Bank = 0 Row =    0, Col =  68, Data =    69, Dqm = zz00
+# at time    228652 ns READ : Bank = 0 Row =    0, Col =  69, Data =    70, Dqm = zz00
+# at time    228662 ns READ : Bank = 0 Row =    0, Col =  70, Data =    71, Dqm = zz00
+# at time    228672 ns READ : Bank = 0 Row =    0, Col =  71, Data =    72, Dqm = zz00
+# at time    228682 ns READ : Bank = 0 Row =    0, Col =  72, Data =    73, Dqm = zz00
+# at time    228692 ns READ : Bank = 0 Row =    0, Col =  73, Data =    74, Dqm = zz00
+# at time    228702 ns READ : Bank = 0 Row =    0, Col =  74, Data =    75, Dqm = zz00
+# at time    228712 ns READ : Bank = 0 Row =    0, Col =  75, Data =    76, Dqm = zz00
+# at time    228722 ns READ : Bank = 0 Row =    0, Col =  76, Data =    77, Dqm = zz00
+# at time    228732 ns READ : Bank = 0 Row =    0, Col =  77, Data =    78, Dqm = zz00
+# at time    228742 ns READ : Bank = 0 Row =    0, Col =  78, Data =    79, Dqm = zz00
+# at time    228752 ns READ : Bank = 0 Row =    0, Col =  79, Data =    80, Dqm = zz00
+# at time    228762 ns READ : Bank = 0 Row =    0, Col =  80, Data =    81, Dqm = zz00
+# at time    228772 ns READ : Bank = 0 Row =    0, Col =  81, Data =    82, Dqm = zz00
+# at time    228782 ns READ : Bank = 0 Row =    0, Col =  82, Data =    83, Dqm = zz00
+# at time    228792 ns READ : Bank = 0 Row =    0, Col =  83, Data =    84, Dqm = zz00
+# at time    228802 ns READ : Bank = 0 Row =    0, Col =  84, Data =    85, Dqm = zz00
+# at time    228812 ns READ : Bank = 0 Row =    0, Col =  85, Data =    86, Dqm = zz00
+# at time    228822 ns READ : Bank = 0 Row =    0, Col =  86, Data =    87, Dqm = zz00
+# at time    228832 ns READ : Bank = 0 Row =    0, Col =  87, Data =    88, Dqm = zz00
+# at time    228842 ns READ : Bank = 0 Row =    0, Col =  88, Data =    89, Dqm = zz00
+# at time    228852 ns READ : Bank = 0 Row =    0, Col =  89, Data =    90, Dqm = zz00
+# at time    228862 ns READ : Bank = 0 Row =    0, Col =  90, Data =    91, Dqm = zz00
+# at time    228872 ns READ : Bank = 0 Row =    0, Col =  91, Data =    92, Dqm = zz00
+# at time    228882 ns READ : Bank = 0 Row =    0, Col =  92, Data =    93, Dqm = zz00
+# at time    228892 ns READ : Bank = 0 Row =    0, Col =  93, Data =    94, Dqm = zz00
+# at time    228902 ns READ : Bank = 0 Row =    0, Col =  94, Data =    95, Dqm = zz00
+# at time    228912 ns READ : Bank = 0 Row =    0, Col =  95, Data =    96, Dqm = zz00
+# at time    228922 ns READ : Bank = 0 Row =    0, Col =  96, Data =    97, Dqm = zz00
+# at time    228932 ns READ : Bank = 0 Row =    0, Col =  97, Data =    98, Dqm = zz00
+# at time    228942 ns READ : Bank = 0 Row =    0, Col =  98, Data =    99, Dqm = zz00
+# at time    228952 ns READ : Bank = 0 Row =    0, Col =  99, Data =   100, Dqm = zz00
+# at time    228962 ns READ : Bank = 0 Row =    0, Col = 100, Data =   101, Dqm = zz00
+# at time    228972 ns READ : Bank = 0 Row =    0, Col = 101, Data =   102, Dqm = zz00
+# at time    228982 ns READ : Bank = 0 Row =    0, Col = 102, Data =   103, Dqm = zz00
+# at time    228992 ns READ : Bank = 0 Row =    0, Col = 103, Data =   104, Dqm = zz00
+# at time    229002 ns READ : Bank = 0 Row =    0, Col = 104, Data =   105, Dqm = zz00
+# at time    229012 ns READ : Bank = 0 Row =    0, Col = 105, Data =   106, Dqm = zz00
+# at time    229022 ns READ : Bank = 0 Row =    0, Col = 106, Data =   107, Dqm = zz00
+# at time    229032 ns READ : Bank = 0 Row =    0, Col = 107, Data =   108, Dqm = zz00
+# at time    229042 ns READ : Bank = 0 Row =    0, Col = 108, Data =   109, Dqm = zz00
+# at time    229052 ns READ : Bank = 0 Row =    0, Col = 109, Data =   110, Dqm = zz00
+# at time    229062 ns READ : Bank = 0 Row =    0, Col = 110, Data =   111, Dqm = zz00
+# at time    229072 ns READ : Bank = 0 Row =    0, Col = 111, Data =   112, Dqm = zz00
+# at time    229082 ns READ : Bank = 0 Row =    0, Col = 112, Data =   113, Dqm = zz00
+# at time    229092 ns READ : Bank = 0 Row =    0, Col = 113, Data =   114, Dqm = zz00
+# at time    229102 ns READ : Bank = 0 Row =    0, Col = 114, Data =   115, Dqm = zz00
+# at time    229112 ns READ : Bank = 0 Row =    0, Col = 115, Data =   116, Dqm = zz00
+# at time    229122 ns READ : Bank = 0 Row =    0, Col = 116, Data =   117, Dqm = zz00
+# at time    229132 ns READ : Bank = 0 Row =    0, Col = 117, Data =   118, Dqm = zz00
+# at time    229142 ns READ : Bank = 0 Row =    0, Col = 118, Data =   119, Dqm = zz00
+# at time    229152 ns READ : Bank = 0 Row =    0, Col = 119, Data =   120, Dqm = zz00
+# at time    229162 ns READ : Bank = 0 Row =    0, Col = 120, Data =   121, Dqm = zz00
+# at time    229172 ns READ : Bank = 0 Row =    0, Col = 121, Data =   122, Dqm = zz00
+# at time    229182 ns READ : Bank = 0 Row =    0, Col = 122, Data =   123, Dqm = zz00
+# at time    229192 ns READ : Bank = 0 Row =    0, Col = 123, Data =   124, Dqm = zz00
+# at time    229202 ns READ : Bank = 0 Row =    0, Col = 124, Data =   125, Dqm = zz00
+# at time    229212 ns READ : Bank = 0 Row =    0, Col = 125, Data =   126, Dqm = zz00
+# at time    229222 ns READ : Bank = 0 Row =    0, Col = 126, Data =   127, Dqm = zz00
+# at time    229232 ns READ : Bank = 0 Row =    0, Col = 127, Data =   128, Dqm = zz00
+# at time    229242 ns READ : Bank = 0 Row =    0, Col = 128, Data =   129, Dqm = zz00
+# at time    229252 ns READ : Bank = 0 Row =    0, Col = 129, Data =   130, Dqm = zz00
+# at time    229262 ns READ : Bank = 0 Row =    0, Col = 130, Data =   131, Dqm = zz00
+# at time    229272 ns READ : Bank = 0 Row =    0, Col = 131, Data =   132, Dqm = zz00
+# at time    229282 ns READ : Bank = 0 Row =    0, Col = 132, Data =   133, Dqm = zz00
+# at time    229292 ns READ : Bank = 0 Row =    0, Col = 133, Data =   134, Dqm = zz00
+# at time    229302 ns READ : Bank = 0 Row =    0, Col = 134, Data =   135, Dqm = zz00
+# at time    229312 ns READ : Bank = 0 Row =    0, Col = 135, Data =   136, Dqm = zz00
+# at time    229322 ns READ : Bank = 0 Row =    0, Col = 136, Data =   137, Dqm = zz00
+# at time    229332 ns READ : Bank = 0 Row =    0, Col = 137, Data =   138, Dqm = zz00
+# at time    229342 ns READ : Bank = 0 Row =    0, Col = 138, Data =   139, Dqm = zz00
+# at time    229352 ns READ : Bank = 0 Row =    0, Col = 139, Data =   140, Dqm = zz00
+# at time    229362 ns READ : Bank = 0 Row =    0, Col = 140, Data =   141, Dqm = zz00
+# at time    229372 ns READ : Bank = 0 Row =    0, Col = 141, Data =   142, Dqm = zz00
+# at time    229382 ns READ : Bank = 0 Row =    0, Col = 142, Data =   143, Dqm = zz00
+# at time    229392 ns READ : Bank = 0 Row =    0, Col = 143, Data =   144, Dqm = zz00
+# at time    229402 ns READ : Bank = 0 Row =    0, Col = 144, Data =   145, Dqm = zz00
+# at time    229412 ns READ : Bank = 0 Row =    0, Col = 145, Data =   146, Dqm = zz00
+# at time    229422 ns READ : Bank = 0 Row =    0, Col = 146, Data =   147, Dqm = zz00
+# at time    229432 ns READ : Bank = 0 Row =    0, Col = 147, Data =   148, Dqm = zz00
+# at time    229442 ns READ : Bank = 0 Row =    0, Col = 148, Data =   149, Dqm = zz00
+# at time    229452 ns READ : Bank = 0 Row =    0, Col = 149, Data =   150, Dqm = zz00
+# at time    229462 ns READ : Bank = 0 Row =    0, Col = 150, Data =   151, Dqm = zz00
+# at time    229472 ns READ : Bank = 0 Row =    0, Col = 151, Data =   152, Dqm = zz00
+# at time    229482 ns READ : Bank = 0 Row =    0, Col = 152, Data =   153, Dqm = zz00
+# at time    229492 ns READ : Bank = 0 Row =    0, Col = 153, Data =   154, Dqm = zz00
+# at time    229502 ns READ : Bank = 0 Row =    0, Col = 154, Data =   155, Dqm = zz00
+# at time    229512 ns READ : Bank = 0 Row =    0, Col = 155, Data =   156, Dqm = zz00
+# at time    229522 ns READ : Bank = 0 Row =    0, Col = 156, Data =   157, Dqm = zz00
+# at time    229532 ns READ : Bank = 0 Row =    0, Col = 157, Data =   158, Dqm = zz00
+# at time    229542 ns READ : Bank = 0 Row =    0, Col = 158, Data =   159, Dqm = zz00
+# at time    229552 ns READ : Bank = 0 Row =    0, Col = 159, Data =   160, Dqm = zz00
+# at time    229562 ns READ : Bank = 0 Row =    0, Col = 160, Data =   161, Dqm = zz00
+# at time    229572 ns READ : Bank = 0 Row =    0, Col = 161, Data =   162, Dqm = zz00
+# at time    229582 ns READ : Bank = 0 Row =    0, Col = 162, Data =   163, Dqm = zz00
+# at time    229592 ns READ : Bank = 0 Row =    0, Col = 163, Data =   164, Dqm = zz00
+# at time    229602 ns READ : Bank = 0 Row =    0, Col = 164, Data =   165, Dqm = zz00
+# at time    229612 ns READ : Bank = 0 Row =    0, Col = 165, Data =   166, Dqm = zz00
+# at time    229622 ns READ : Bank = 0 Row =    0, Col = 166, Data =   167, Dqm = zz00
+# at time    229632 ns READ : Bank = 0 Row =    0, Col = 167, Data =   168, Dqm = zz00
+# at time    229642 ns READ : Bank = 0 Row =    0, Col = 168, Data =   169, Dqm = zz00
+# at time    229652 ns READ : Bank = 0 Row =    0, Col = 169, Data =   170, Dqm = zz00
+# at time    229662 ns READ : Bank = 0 Row =    0, Col = 170, Data =   171, Dqm = zz00
+# at time    229672 ns READ : Bank = 0 Row =    0, Col = 171, Data =   172, Dqm = zz00
+# at time    229682 ns READ : Bank = 0 Row =    0, Col = 172, Data =   173, Dqm = zz00
+# at time    229692 ns READ : Bank = 0 Row =    0, Col = 173, Data =   174, Dqm = zz00
+# at time    229702 ns READ : Bank = 0 Row =    0, Col = 174, Data =   175, Dqm = zz00
+# at time    229712 ns READ : Bank = 0 Row =    0, Col = 175, Data =   176, Dqm = zz00
+# at time    229722 ns READ : Bank = 0 Row =    0, Col = 176, Data =   177, Dqm = zz00
+# at time    229732 ns READ : Bank = 0 Row =    0, Col = 177, Data =   178, Dqm = zz00
+# at time    229742 ns READ : Bank = 0 Row =    0, Col = 178, Data =   179, Dqm = zz00
+# at time    229752 ns READ : Bank = 0 Row =    0, Col = 179, Data =   180, Dqm = zz00
+# at time    229762 ns READ : Bank = 0 Row =    0, Col = 180, Data =   181, Dqm = zz00
+# at time    229772 ns READ : Bank = 0 Row =    0, Col = 181, Data =   182, Dqm = zz00
+# at time    229782 ns READ : Bank = 0 Row =    0, Col = 182, Data =   183, Dqm = zz00
+# at time    229792 ns READ : Bank = 0 Row =    0, Col = 183, Data =   184, Dqm = zz00
+# at time    229802 ns READ : Bank = 0 Row =    0, Col = 184, Data =   185, Dqm = zz00
+# at time    229812 ns READ : Bank = 0 Row =    0, Col = 185, Data =   186, Dqm = zz00
+# at time    229822 ns READ : Bank = 0 Row =    0, Col = 186, Data =   187, Dqm = zz00
+# at time    229832 ns READ : Bank = 0 Row =    0, Col = 187, Data =   188, Dqm = zz00
+# at time    229842 ns READ : Bank = 0 Row =    0, Col = 188, Data =   189, Dqm = zz00
+# at time    229852 ns READ : Bank = 0 Row =    0, Col = 189, Data =   190, Dqm = zz00
+# at time    229862 ns READ : Bank = 0 Row =    0, Col = 190, Data =   191, Dqm = zz00
+# at time    229872 ns READ : Bank = 0 Row =    0, Col = 191, Data =   192, Dqm = zz00
+# at time    229882 ns READ : Bank = 0 Row =    0, Col = 192, Data =   193, Dqm = zz00
+# at time    229892 ns READ : Bank = 0 Row =    0, Col = 193, Data =   194, Dqm = zz00
+# at time    229902 ns READ : Bank = 0 Row =    0, Col = 194, Data =   195, Dqm = zz00
+# at time    229912 ns READ : Bank = 0 Row =    0, Col = 195, Data =   196, Dqm = zz00
+# at time    229922 ns READ : Bank = 0 Row =    0, Col = 196, Data =   197, Dqm = zz00
+# at time    229932 ns READ : Bank = 0 Row =    0, Col = 197, Data =   198, Dqm = zz00
+# at time    229942 ns READ : Bank = 0 Row =    0, Col = 198, Data =   199, Dqm = zz00
+# at time    229952 ns READ : Bank = 0 Row =    0, Col = 199, Data =   200, Dqm = zz00
+# at time    229962 ns READ : Bank = 0 Row =    0, Col = 200, Data =   201, Dqm = zz00
+# at time    229972 ns READ : Bank = 0 Row =    0, Col = 201, Data =   202, Dqm = zz00
+# at time    229982 ns READ : Bank = 0 Row =    0, Col = 202, Data =   203, Dqm = zz00
+# at time    229992 ns READ : Bank = 0 Row =    0, Col = 203, Data =   204, Dqm = zz00
+# at time    230002 ns READ : Bank = 0 Row =    0, Col = 204, Data =   205, Dqm = zz00
+# at time    230012 ns READ : Bank = 0 Row =    0, Col = 205, Data =   206, Dqm = zz00
+# at time    230022 ns READ : Bank = 0 Row =    0, Col = 206, Data =   207, Dqm = zz00
+# at time    230032 ns READ : Bank = 0 Row =    0, Col = 207, Data =   208, Dqm = zz00
+# at time    230042 ns READ : Bank = 0 Row =    0, Col = 208, Data =   209, Dqm = zz00
+# at time    230052 ns READ : Bank = 0 Row =    0, Col = 209, Data =   210, Dqm = zz00
+# at time    230062 ns READ : Bank = 0 Row =    0, Col = 210, Data =   211, Dqm = zz00
+# at time    230072 ns READ : Bank = 0 Row =    0, Col = 211, Data =   212, Dqm = zz00
+# at time    230082 ns READ : Bank = 0 Row =    0, Col = 212, Data =   213, Dqm = zz00
+# at time    230092 ns READ : Bank = 0 Row =    0, Col = 213, Data =   214, Dqm = zz00
+# at time    230102 ns READ : Bank = 0 Row =    0, Col = 214, Data =   215, Dqm = zz00
+# at time    230112 ns READ : Bank = 0 Row =    0, Col = 215, Data =   216, Dqm = zz00
+# at time    230122 ns READ : Bank = 0 Row =    0, Col = 216, Data =   217, Dqm = zz00
+# at time    230132 ns READ : Bank = 0 Row =    0, Col = 217, Data =   218, Dqm = zz00
+# at time    230142 ns READ : Bank = 0 Row =    0, Col = 218, Data =   219, Dqm = zz00
+# at time    230152 ns READ : Bank = 0 Row =    0, Col = 219, Data =   220, Dqm = zz00
+# at time    230162 ns READ : Bank = 0 Row =    0, Col = 220, Data =   221, Dqm = zz00
+# at time    230172 ns READ : Bank = 0 Row =    0, Col = 221, Data =   222, Dqm = zz00
+# at time    230182 ns READ : Bank = 0 Row =    0, Col = 222, Data =   223, Dqm = zz00
+# at time    230192 ns READ : Bank = 0 Row =    0, Col = 223, Data =   224, Dqm = zz00
+# at time    230202 ns READ : Bank = 0 Row =    0, Col = 224, Data =   225, Dqm = zz00
+# at time    230212 ns READ : Bank = 0 Row =    0, Col = 225, Data =   226, Dqm = zz00
+# at time    230222 ns READ : Bank = 0 Row =    0, Col = 226, Data =   227, Dqm = zz00
+# at time    230232 ns READ : Bank = 0 Row =    0, Col = 227, Data =   228, Dqm = zz00
+# at time    230242 ns READ : Bank = 0 Row =    0, Col = 228, Data =   229, Dqm = zz00
+# at time    230252 ns READ : Bank = 0 Row =    0, Col = 229, Data =   230, Dqm = zz00
+# at time    230262 ns READ : Bank = 0 Row =    0, Col = 230, Data =   231, Dqm = zz00
+# at time    230272 ns READ : Bank = 0 Row =    0, Col = 231, Data =   232, Dqm = zz00
+# at time    230282 ns READ : Bank = 0 Row =    0, Col = 232, Data =   233, Dqm = zz00
+# at time    230292 ns READ : Bank = 0 Row =    0, Col = 233, Data =   234, Dqm = zz00
+# at time    230302 ns READ : Bank = 0 Row =    0, Col = 234, Data =   235, Dqm = zz00
+# at time    230312 ns READ : Bank = 0 Row =    0, Col = 235, Data =   236, Dqm = zz00
+# at time    230322 ns READ : Bank = 0 Row =    0, Col = 236, Data =   237, Dqm = zz00
+# at time    230332 ns READ : Bank = 0 Row =    0, Col = 237, Data =   238, Dqm = zz00
+# at time    230335 ns PRE  : Bank = 0
+# at time    230342 ns READ : Bank = 0 Row =    0, Col = 238, Data =   239, Dqm = zz00
+# at time    230352 ns READ : Bank = 0 Row =    0, Col = 239, Data =   240, Dqm = zz00
+# at time    230395 ns AREF : Auto Refresh
+# at time    230475 ns ACT  : Bank = 0 Row =    0
+# at time    230552 ns READ : Bank = 0 Row =    0, Col = 240, Data =   241, Dqm = zz00
+# at time    230562 ns READ : Bank = 0 Row =    0, Col = 241, Data =   242, Dqm = zz00
+# at time    230572 ns READ : Bank = 0 Row =    0, Col = 242, Data =   243, Dqm = zz00
+# at time    230582 ns READ : Bank = 0 Row =    0, Col = 243, Data =   244, Dqm = zz00
+# at time    230592 ns READ : Bank = 0 Row =    0, Col = 244, Data =   245, Dqm = zz00
+# at time    230602 ns READ : Bank = 0 Row =    0, Col = 245, Data =   246, Dqm = zz00
+# at time    230612 ns READ : Bank = 0 Row =    0, Col = 246, Data =   247, Dqm = zz00
+# at time    230622 ns READ : Bank = 0 Row =    0, Col = 247, Data =   248, Dqm = zz00
+# at time    230632 ns READ : Bank = 0 Row =    0, Col = 248, Data =   249, Dqm = zz00
+# at time    230642 ns READ : Bank = 0 Row =    0, Col = 249, Data =   250, Dqm = zz00
+# at time    230652 ns READ : Bank = 0 Row =    0, Col = 250, Data =   251, Dqm = zz00
+# at time    230662 ns READ : Bank = 0 Row =    0, Col = 251, Data =   252, Dqm = zz00
+# at time    230672 ns READ : Bank = 0 Row =    0, Col = 252, Data =   253, Dqm = zz00
+# at time    230682 ns READ : Bank = 0 Row =    0, Col = 253, Data =   254, Dqm = zz00
+# at time    230685 ns PRE  : Bank = 0
+# at time    230692 ns READ : Bank = 0 Row =    0, Col = 254, Data =   255, Dqm = zz00
+# at time    230702 ns READ : Bank = 0 Row =    0, Col = 255, Data =     0, Dqm = zz00
+# at time    230965 ns ACT  : Bank = 0 Row =    0
+# at time    231042 ns READ : Bank = 0 Row =    0, Col = 256, Data =     0, Dqm = zz00
+# at time    231052 ns READ : Bank = 0 Row =    0, Col = 257, Data =     0, Dqm = zz00
+# at time    231062 ns READ : Bank = 0 Row =    0, Col = 258, Data =     0, Dqm = zz00
+# at time    231072 ns READ : Bank = 0 Row =    0, Col = 259, Data =     0, Dqm = zz00
+# at time    231082 ns READ : Bank = 0 Row =    0, Col = 260, Data =     0, Dqm = zz00
+# at time    231092 ns READ : Bank = 0 Row =    0, Col = 261, Data =     0, Dqm = zz00
+# at time    231102 ns READ : Bank = 0 Row =    0, Col = 262, Data =     0, Dqm = zz00
+# at time    231112 ns READ : Bank = 0 Row =    0, Col = 263, Data =     0, Dqm = zz00
+# at time    231122 ns READ : Bank = 0 Row =    0, Col = 264, Data =     0, Dqm = zz00
+# at time    231132 ns READ : Bank = 0 Row =    0, Col = 265, Data =     0, Dqm = zz00
+# at time    231142 ns READ : Bank = 0 Row =    0, Col = 266, Data =     0, Dqm = zz00
+# at time    231152 ns READ : Bank = 0 Row =    0, Col = 267, Data =     0, Dqm = zz00
+# at time    231162 ns READ : Bank = 0 Row =    0, Col = 268, Data =     0, Dqm = zz00
+# at time    231172 ns READ : Bank = 0 Row =    0, Col = 269, Data =     0, Dqm = zz00
+# at time    231182 ns READ : Bank = 0 Row =    0, Col = 270, Data =     0, Dqm = zz00
+# at time    231192 ns READ : Bank = 0 Row =    0, Col = 271, Data =     0, Dqm = zz00
+# at time    231202 ns READ : Bank = 0 Row =    0, Col = 272, Data =     0, Dqm = zz00
+# at time    231212 ns READ : Bank = 0 Row =    0, Col = 273, Data =     0, Dqm = zz00
+# at time    231222 ns READ : Bank = 0 Row =    0, Col = 274, Data =     0, Dqm = zz00
+# at time    231232 ns READ : Bank = 0 Row =    0, Col = 275, Data =     0, Dqm = zz00
+# at time    231242 ns READ : Bank = 0 Row =    0, Col = 276, Data =     0, Dqm = zz00
+# at time    231252 ns READ : Bank = 0 Row =    0, Col = 277, Data =     0, Dqm = zz00
+# at time    231262 ns READ : Bank = 0 Row =    0, Col = 278, Data =     0, Dqm = zz00
+# at time    231272 ns READ : Bank = 0 Row =    0, Col = 279, Data =     0, Dqm = zz00
+# at time    231282 ns READ : Bank = 0 Row =    0, Col = 280, Data =     0, Dqm = zz00
+# at time    231292 ns READ : Bank = 0 Row =    0, Col = 281, Data =     0, Dqm = zz00
+# at time    231302 ns READ : Bank = 0 Row =    0, Col = 282, Data =     0, Dqm = zz00
+# at time    231312 ns READ : Bank = 0 Row =    0, Col = 283, Data =     0, Dqm = zz00
+# at time    231322 ns READ : Bank = 0 Row =    0, Col = 284, Data =     0, Dqm = zz00
+# at time    231332 ns READ : Bank = 0 Row =    0, Col = 285, Data =     0, Dqm = zz00
+# at time    231342 ns READ : Bank = 0 Row =    0, Col = 286, Data =     0, Dqm = zz00
+# at time    231352 ns READ : Bank = 0 Row =    0, Col = 287, Data =     0, Dqm = zz00
+# at time    231362 ns READ : Bank = 0 Row =    0, Col = 288, Data =     0, Dqm = zz00
+# at time    231372 ns READ : Bank = 0 Row =    0, Col = 289, Data =     0, Dqm = zz00
+# at time    231382 ns READ : Bank = 0 Row =    0, Col = 290, Data =     0, Dqm = zz00
+# at time    231392 ns READ : Bank = 0 Row =    0, Col = 291, Data =     0, Dqm = zz00
+# at time    231402 ns READ : Bank = 0 Row =    0, Col = 292, Data =     0, Dqm = zz00
+# at time    231412 ns READ : Bank = 0 Row =    0, Col = 293, Data =     0, Dqm = zz00
+# at time    231422 ns READ : Bank = 0 Row =    0, Col = 294, Data =     0, Dqm = zz00
+# at time    231432 ns READ : Bank = 0 Row =    0, Col = 295, Data =     0, Dqm = zz00
+# at time    231442 ns READ : Bank = 0 Row =    0, Col = 296, Data =     0, Dqm = zz00
+# at time    231452 ns READ : Bank = 0 Row =    0, Col = 297, Data =     0, Dqm = zz00
+# at time    231462 ns READ : Bank = 0 Row =    0, Col = 298, Data =     0, Dqm = zz00
+# at time    231472 ns READ : Bank = 0 Row =    0, Col = 299, Data =     0, Dqm = zz00
+# at time    231482 ns READ : Bank = 0 Row =    0, Col = 300, Data =     0, Dqm = zz00
+# at time    231492 ns READ : Bank = 0 Row =    0, Col = 301, Data =     0, Dqm = zz00
+# at time    231502 ns READ : Bank = 0 Row =    0, Col = 302, Data =     0, Dqm = zz00
+# at time    231512 ns READ : Bank = 0 Row =    0, Col = 303, Data =     0, Dqm = zz00
+# at time    231522 ns READ : Bank = 0 Row =    0, Col = 304, Data =     0, Dqm = zz00
+# at time    231532 ns READ : Bank = 0 Row =    0, Col = 305, Data =     0, Dqm = zz00
+# at time    231542 ns READ : Bank = 0 Row =    0, Col = 306, Data =     0, Dqm = zz00
+# at time    231552 ns READ : Bank = 0 Row =    0, Col = 307, Data =     0, Dqm = zz00
+# at time    231562 ns READ : Bank = 0 Row =    0, Col = 308, Data =     0, Dqm = zz00
+# at time    231572 ns READ : Bank = 0 Row =    0, Col = 309, Data =     0, Dqm = zz00
+# at time    231582 ns READ : Bank = 0 Row =    0, Col = 310, Data =     0, Dqm = zz00
+# at time    231592 ns READ : Bank = 0 Row =    0, Col = 311, Data =     0, Dqm = zz00
+# at time    231602 ns READ : Bank = 0 Row =    0, Col = 312, Data =     0, Dqm = zz00
+# at time    231612 ns READ : Bank = 0 Row =    0, Col = 313, Data =     0, Dqm = zz00
+# at time    231622 ns READ : Bank = 0 Row =    0, Col = 314, Data =     0, Dqm = zz00
+# at time    231632 ns READ : Bank = 0 Row =    0, Col = 315, Data =     0, Dqm = zz00
+# at time    231642 ns READ : Bank = 0 Row =    0, Col = 316, Data =     0, Dqm = zz00
+# at time    231652 ns READ : Bank = 0 Row =    0, Col = 317, Data =     0, Dqm = zz00
+# at time    231662 ns READ : Bank = 0 Row =    0, Col = 318, Data =     0, Dqm = zz00
+# at time    231672 ns READ : Bank = 0 Row =    0, Col = 319, Data =     0, Dqm = zz00
+# at time    231682 ns READ : Bank = 0 Row =    0, Col = 320, Data =     0, Dqm = zz00
+# at time    231692 ns READ : Bank = 0 Row =    0, Col = 321, Data =     0, Dqm = zz00
+# at time    231702 ns READ : Bank = 0 Row =    0, Col = 322, Data =     0, Dqm = zz00
+# at time    231712 ns READ : Bank = 0 Row =    0, Col = 323, Data =     0, Dqm = zz00
+# at time    231722 ns READ : Bank = 0 Row =    0, Col = 324, Data =     0, Dqm = zz00
+# at time    231732 ns READ : Bank = 0 Row =    0, Col = 325, Data =     0, Dqm = zz00
+# at time    231742 ns READ : Bank = 0 Row =    0, Col = 326, Data =     0, Dqm = zz00
+# at time    231752 ns READ : Bank = 0 Row =    0, Col = 327, Data =     0, Dqm = zz00
+# at time    231762 ns READ : Bank = 0 Row =    0, Col = 328, Data =     0, Dqm = zz00
+# at time    231772 ns READ : Bank = 0 Row =    0, Col = 329, Data =     0, Dqm = zz00
+# at time    231782 ns READ : Bank = 0 Row =    0, Col = 330, Data =     0, Dqm = zz00
+# at time    231792 ns READ : Bank = 0 Row =    0, Col = 331, Data =     0, Dqm = zz00
+# at time    231802 ns READ : Bank = 0 Row =    0, Col = 332, Data =     0, Dqm = zz00
+# at time    231812 ns READ : Bank = 0 Row =    0, Col = 333, Data =     0, Dqm = zz00
+# at time    231822 ns READ : Bank = 0 Row =    0, Col = 334, Data =     0, Dqm = zz00
+# at time    231832 ns READ : Bank = 0 Row =    0, Col = 335, Data =     0, Dqm = zz00
+# at time    231842 ns READ : Bank = 0 Row =    0, Col = 336, Data =     0, Dqm = zz00
+# at time    231852 ns READ : Bank = 0 Row =    0, Col = 337, Data =     0, Dqm = zz00
+# at time    231862 ns READ : Bank = 0 Row =    0, Col = 338, Data =     0, Dqm = zz00
+# at time    231872 ns READ : Bank = 0 Row =    0, Col = 339, Data =     0, Dqm = zz00
+# at time    231882 ns READ : Bank = 0 Row =    0, Col = 340, Data =     0, Dqm = zz00
+# at time    231892 ns READ : Bank = 0 Row =    0, Col = 341, Data =     0, Dqm = zz00
+# at time    231902 ns READ : Bank = 0 Row =    0, Col = 342, Data =     0, Dqm = zz00
+# at time    231912 ns READ : Bank = 0 Row =    0, Col = 343, Data =     0, Dqm = zz00
+# at time    231922 ns READ : Bank = 0 Row =    0, Col = 344, Data =     0, Dqm = zz00
+# at time    231932 ns READ : Bank = 0 Row =    0, Col = 345, Data =     0, Dqm = zz00
+# at time    231942 ns READ : Bank = 0 Row =    0, Col = 346, Data =     0, Dqm = zz00
+# at time    231952 ns READ : Bank = 0 Row =    0, Col = 347, Data =     0, Dqm = zz00
+# at time    231962 ns READ : Bank = 0 Row =    0, Col = 348, Data =     0, Dqm = zz00
+# at time    231972 ns READ : Bank = 0 Row =    0, Col = 349, Data =     0, Dqm = zz00
+# at time    231982 ns READ : Bank = 0 Row =    0, Col = 350, Data =     0, Dqm = zz00
+# at time    231992 ns READ : Bank = 0 Row =    0, Col = 351, Data =     0, Dqm = zz00
+# at time    232002 ns READ : Bank = 0 Row =    0, Col = 352, Data =     0, Dqm = zz00
+# at time    232012 ns READ : Bank = 0 Row =    0, Col = 353, Data =     0, Dqm = zz00
+# at time    232022 ns READ : Bank = 0 Row =    0, Col = 354, Data =     0, Dqm = zz00
+# at time    232032 ns READ : Bank = 0 Row =    0, Col = 355, Data =     0, Dqm = zz00
+# at time    232042 ns READ : Bank = 0 Row =    0, Col = 356, Data =     0, Dqm = zz00
+# at time    232052 ns READ : Bank = 0 Row =    0, Col = 357, Data =     0, Dqm = zz00
+# at time    232062 ns READ : Bank = 0 Row =    0, Col = 358, Data =     0, Dqm = zz00
+# at time    232072 ns READ : Bank = 0 Row =    0, Col = 359, Data =     0, Dqm = zz00
+# at time    232082 ns READ : Bank = 0 Row =    0, Col = 360, Data =     0, Dqm = zz00
+# at time    232092 ns READ : Bank = 0 Row =    0, Col = 361, Data =     0, Dqm = zz00
+# at time    232102 ns READ : Bank = 0 Row =    0, Col = 362, Data =     0, Dqm = zz00
+# at time    232112 ns READ : Bank = 0 Row =    0, Col = 363, Data =     0, Dqm = zz00
+# at time    232122 ns READ : Bank = 0 Row =    0, Col = 364, Data =     0, Dqm = zz00
+# at time    232132 ns READ : Bank = 0 Row =    0, Col = 365, Data =     0, Dqm = zz00
+# at time    232142 ns READ : Bank = 0 Row =    0, Col = 366, Data =     0, Dqm = zz00
+# at time    232152 ns READ : Bank = 0 Row =    0, Col = 367, Data =     0, Dqm = zz00
+# at time    232162 ns READ : Bank = 0 Row =    0, Col = 368, Data =     0, Dqm = zz00
+# at time    232172 ns READ : Bank = 0 Row =    0, Col = 369, Data =     0, Dqm = zz00
+# at time    232182 ns READ : Bank = 0 Row =    0, Col = 370, Data =     0, Dqm = zz00
+# at time    232192 ns READ : Bank = 0 Row =    0, Col = 371, Data =     0, Dqm = zz00
+# at time    232202 ns READ : Bank = 0 Row =    0, Col = 372, Data =     0, Dqm = zz00
+# at time    232212 ns READ : Bank = 0 Row =    0, Col = 373, Data =     0, Dqm = zz00
+# at time    232222 ns READ : Bank = 0 Row =    0, Col = 374, Data =     0, Dqm = zz00
+# at time    232232 ns READ : Bank = 0 Row =    0, Col = 375, Data =     0, Dqm = zz00
+# at time    232242 ns READ : Bank = 0 Row =    0, Col = 376, Data =     0, Dqm = zz00
+# at time    232252 ns READ : Bank = 0 Row =    0, Col = 377, Data =     0, Dqm = zz00
+# at time    232262 ns READ : Bank = 0 Row =    0, Col = 378, Data =     0, Dqm = zz00
+# at time    232272 ns READ : Bank = 0 Row =    0, Col = 379, Data =     0, Dqm = zz00
+# at time    232282 ns READ : Bank = 0 Row =    0, Col = 380, Data =     0, Dqm = zz00
+# at time    232292 ns READ : Bank = 0 Row =    0, Col = 381, Data =     0, Dqm = zz00
+# at time    232302 ns READ : Bank = 0 Row =    0, Col = 382, Data =     0, Dqm = zz00
+# at time    232312 ns READ : Bank = 0 Row =    0, Col = 383, Data =     0, Dqm = zz00
+# at time    232322 ns READ : Bank = 0 Row =    0, Col = 384, Data =     0, Dqm = zz00
+# at time    232332 ns READ : Bank = 0 Row =    0, Col = 385, Data =     0, Dqm = zz00
+# at time    232342 ns READ : Bank = 0 Row =    0, Col = 386, Data =     0, Dqm = zz00
+# at time    232352 ns READ : Bank = 0 Row =    0, Col = 387, Data =     0, Dqm = zz00
+# at time    232362 ns READ : Bank = 0 Row =    0, Col = 388, Data =     0, Dqm = zz00
+# at time    232372 ns READ : Bank = 0 Row =    0, Col = 389, Data =     0, Dqm = zz00
+# at time    232382 ns READ : Bank = 0 Row =    0, Col = 390, Data =     0, Dqm = zz00
+# at time    232392 ns READ : Bank = 0 Row =    0, Col = 391, Data =     0, Dqm = zz00
+# at time    232402 ns READ : Bank = 0 Row =    0, Col = 392, Data =     0, Dqm = zz00
+# at time    232412 ns READ : Bank = 0 Row =    0, Col = 393, Data =     0, Dqm = zz00
+# at time    232422 ns READ : Bank = 0 Row =    0, Col = 394, Data =     0, Dqm = zz00
+# at time    232432 ns READ : Bank = 0 Row =    0, Col = 395, Data =     0, Dqm = zz00
+# at time    232442 ns READ : Bank = 0 Row =    0, Col = 396, Data =     0, Dqm = zz00
+# at time    232452 ns READ : Bank = 0 Row =    0, Col = 397, Data =     0, Dqm = zz00
+# at time    232462 ns READ : Bank = 0 Row =    0, Col = 398, Data =     0, Dqm = zz00
+# at time    232472 ns READ : Bank = 0 Row =    0, Col = 399, Data =     0, Dqm = zz00
+# at time    232482 ns READ : Bank = 0 Row =    0, Col = 400, Data =     0, Dqm = zz00
+# at time    232492 ns READ : Bank = 0 Row =    0, Col = 401, Data =     0, Dqm = zz00
+# at time    232502 ns READ : Bank = 0 Row =    0, Col = 402, Data =     0, Dqm = zz00
+# at time    232512 ns READ : Bank = 0 Row =    0, Col = 403, Data =     0, Dqm = zz00
+# at time    232522 ns READ : Bank = 0 Row =    0, Col = 404, Data =     0, Dqm = zz00
+# at time    232532 ns READ : Bank = 0 Row =    0, Col = 405, Data =     0, Dqm = zz00
+# at time    232542 ns READ : Bank = 0 Row =    0, Col = 406, Data =     0, Dqm = zz00
+# at time    232552 ns READ : Bank = 0 Row =    0, Col = 407, Data =     0, Dqm = zz00
+# at time    232562 ns READ : Bank = 0 Row =    0, Col = 408, Data =     0, Dqm = zz00
+# at time    232572 ns READ : Bank = 0 Row =    0, Col = 409, Data =     0, Dqm = zz00
+# at time    232582 ns READ : Bank = 0 Row =    0, Col = 410, Data =     0, Dqm = zz00
+# at time    232592 ns READ : Bank = 0 Row =    0, Col = 411, Data =     0, Dqm = zz00
+# at time    232602 ns READ : Bank = 0 Row =    0, Col = 412, Data =     0, Dqm = zz00
+# at time    232612 ns READ : Bank = 0 Row =    0, Col = 413, Data =     0, Dqm = zz00
+# at time    232622 ns READ : Bank = 0 Row =    0, Col = 414, Data =     0, Dqm = zz00
+# at time    232632 ns READ : Bank = 0 Row =    0, Col = 415, Data =     0, Dqm = zz00
+# at time    232642 ns READ : Bank = 0 Row =    0, Col = 416, Data =     0, Dqm = zz00
+# at time    232652 ns READ : Bank = 0 Row =    0, Col = 417, Data =     0, Dqm = zz00
+# at time    232662 ns READ : Bank = 0 Row =    0, Col = 418, Data =     0, Dqm = zz00
+# at time    232672 ns READ : Bank = 0 Row =    0, Col = 419, Data =     0, Dqm = zz00
+# at time    232682 ns READ : Bank = 0 Row =    0, Col = 420, Data =     0, Dqm = zz00
+# at time    232692 ns READ : Bank = 0 Row =    0, Col = 421, Data =     0, Dqm = zz00
+# at time    232702 ns READ : Bank = 0 Row =    0, Col = 422, Data =     0, Dqm = zz00
+# at time    232712 ns READ : Bank = 0 Row =    0, Col = 423, Data =     0, Dqm = zz00
+# at time    232722 ns READ : Bank = 0 Row =    0, Col = 424, Data =     0, Dqm = zz00
+# at time    232732 ns READ : Bank = 0 Row =    0, Col = 425, Data =     0, Dqm = zz00
+# at time    232742 ns READ : Bank = 0 Row =    0, Col = 426, Data =     0, Dqm = zz00
+# at time    232752 ns READ : Bank = 0 Row =    0, Col = 427, Data =     0, Dqm = zz00
+# at time    232762 ns READ : Bank = 0 Row =    0, Col = 428, Data =     0, Dqm = zz00
+# at time    232772 ns READ : Bank = 0 Row =    0, Col = 429, Data =     0, Dqm = zz00
+# at time    232782 ns READ : Bank = 0 Row =    0, Col = 430, Data =     0, Dqm = zz00
+# at time    232792 ns READ : Bank = 0 Row =    0, Col = 431, Data =     0, Dqm = zz00
+# at time    232802 ns READ : Bank = 0 Row =    0, Col = 432, Data =     0, Dqm = zz00
+# at time    232812 ns READ : Bank = 0 Row =    0, Col = 433, Data =     0, Dqm = zz00
+# at time    232822 ns READ : Bank = 0 Row =    0, Col = 434, Data =     0, Dqm = zz00
+# at time    232832 ns READ : Bank = 0 Row =    0, Col = 435, Data =     0, Dqm = zz00
+# at time    232842 ns READ : Bank = 0 Row =    0, Col = 436, Data =     0, Dqm = zz00
+# at time    232852 ns READ : Bank = 0 Row =    0, Col = 437, Data =     0, Dqm = zz00
+# at time    232862 ns READ : Bank = 0 Row =    0, Col = 438, Data =     0, Dqm = zz00
+# at time    232872 ns READ : Bank = 0 Row =    0, Col = 439, Data =     0, Dqm = zz00
+# at time    232882 ns READ : Bank = 0 Row =    0, Col = 440, Data =     0, Dqm = zz00
+# at time    232892 ns READ : Bank = 0 Row =    0, Col = 441, Data =     0, Dqm = zz00
+# at time    232902 ns READ : Bank = 0 Row =    0, Col = 442, Data =     0, Dqm = zz00
+# at time    232912 ns READ : Bank = 0 Row =    0, Col = 443, Data =     0, Dqm = zz00
+# at time    232922 ns READ : Bank = 0 Row =    0, Col = 444, Data =     0, Dqm = zz00
+# at time    232932 ns READ : Bank = 0 Row =    0, Col = 445, Data =     0, Dqm = zz00
+# at time    232942 ns READ : Bank = 0 Row =    0, Col = 446, Data =     0, Dqm = zz00
+# at time    232952 ns READ : Bank = 0 Row =    0, Col = 447, Data =     0, Dqm = zz00
+# at time    232962 ns READ : Bank = 0 Row =    0, Col = 448, Data =     0, Dqm = zz00
+# at time    232972 ns READ : Bank = 0 Row =    0, Col = 449, Data =     0, Dqm = zz00
+# at time    232982 ns READ : Bank = 0 Row =    0, Col = 450, Data =     0, Dqm = zz00
+# at time    232992 ns READ : Bank = 0 Row =    0, Col = 451, Data =     0, Dqm = zz00
+# at time    233002 ns READ : Bank = 0 Row =    0, Col = 452, Data =     0, Dqm = zz00
+# at time    233012 ns READ : Bank = 0 Row =    0, Col = 453, Data =     0, Dqm = zz00
+# at time    233022 ns READ : Bank = 0 Row =    0, Col = 454, Data =     0, Dqm = zz00
+# at time    233032 ns READ : Bank = 0 Row =    0, Col = 455, Data =     0, Dqm = zz00
+# at time    233042 ns READ : Bank = 0 Row =    0, Col = 456, Data =     0, Dqm = zz00
+# at time    233052 ns READ : Bank = 0 Row =    0, Col = 457, Data =     0, Dqm = zz00
+# at time    233062 ns READ : Bank = 0 Row =    0, Col = 458, Data =     0, Dqm = zz00
+# at time    233072 ns READ : Bank = 0 Row =    0, Col = 459, Data =     0, Dqm = zz00
+# at time    233082 ns READ : Bank = 0 Row =    0, Col = 460, Data =     0, Dqm = zz00
+# at time    233092 ns READ : Bank = 0 Row =    0, Col = 461, Data =     0, Dqm = zz00
+# at time    233102 ns READ : Bank = 0 Row =    0, Col = 462, Data =     0, Dqm = zz00
+# at time    233112 ns READ : Bank = 0 Row =    0, Col = 463, Data =     0, Dqm = zz00
+# at time    233122 ns READ : Bank = 0 Row =    0, Col = 464, Data =     0, Dqm = zz00
+# at time    233132 ns READ : Bank = 0 Row =    0, Col = 465, Data =     0, Dqm = zz00
+# at time    233142 ns READ : Bank = 0 Row =    0, Col = 466, Data =     0, Dqm = zz00
+# at time    233152 ns READ : Bank = 0 Row =    0, Col = 467, Data =     0, Dqm = zz00
+# at time    233162 ns READ : Bank = 0 Row =    0, Col = 468, Data =     0, Dqm = zz00
+# at time    233172 ns READ : Bank = 0 Row =    0, Col = 469, Data =     0, Dqm = zz00
+# at time    233182 ns READ : Bank = 0 Row =    0, Col = 470, Data =     0, Dqm = zz00
+# at time    233192 ns READ : Bank = 0 Row =    0, Col = 471, Data =     0, Dqm = zz00
+# at time    233202 ns READ : Bank = 0 Row =    0, Col = 472, Data =     0, Dqm = zz00
+# at time    233212 ns READ : Bank = 0 Row =    0, Col = 473, Data =     0, Dqm = zz00
+# at time    233222 ns READ : Bank = 0 Row =    0, Col = 474, Data =     0, Dqm = zz00
+# at time    233232 ns READ : Bank = 0 Row =    0, Col = 475, Data =     0, Dqm = zz00
+# at time    233242 ns READ : Bank = 0 Row =    0, Col = 476, Data =     0, Dqm = zz00
+# at time    233252 ns READ : Bank = 0 Row =    0, Col = 477, Data =     0, Dqm = zz00
+# at time    233262 ns READ : Bank = 0 Row =    0, Col = 478, Data =     0, Dqm = zz00
+# at time    233272 ns READ : Bank = 0 Row =    0, Col = 479, Data =     0, Dqm = zz00
+# at time    233282 ns READ : Bank = 0 Row =    0, Col = 480, Data =     0, Dqm = zz00
+# at time    233292 ns READ : Bank = 0 Row =    0, Col = 481, Data =     0, Dqm = zz00
+# at time    233302 ns READ : Bank = 0 Row =    0, Col = 482, Data =     0, Dqm = zz00
+# at time    233312 ns READ : Bank = 0 Row =    0, Col = 483, Data =     0, Dqm = zz00
+# at time    233322 ns READ : Bank = 0 Row =    0, Col = 484, Data =     0, Dqm = zz00
+# at time    233332 ns READ : Bank = 0 Row =    0, Col = 485, Data =     0, Dqm = zz00
+# at time    233342 ns READ : Bank = 0 Row =    0, Col = 486, Data =     0, Dqm = zz00
+# at time    233352 ns READ : Bank = 0 Row =    0, Col = 487, Data =     0, Dqm = zz00
+# at time    233362 ns READ : Bank = 0 Row =    0, Col = 488, Data =     0, Dqm = zz00
+# at time    233372 ns READ : Bank = 0 Row =    0, Col = 489, Data =     0, Dqm = zz00
+# at time    233382 ns READ : Bank = 0 Row =    0, Col = 490, Data =     0, Dqm = zz00
+# at time    233392 ns READ : Bank = 0 Row =    0, Col = 491, Data =     0, Dqm = zz00
+# at time    233402 ns READ : Bank = 0 Row =    0, Col = 492, Data =     0, Dqm = zz00
+# at time    233412 ns READ : Bank = 0 Row =    0, Col = 493, Data =     0, Dqm = zz00
+# at time    233422 ns READ : Bank = 0 Row =    0, Col = 494, Data =     0, Dqm = zz00
+# at time    233432 ns READ : Bank = 0 Row =    0, Col = 495, Data =     0, Dqm = zz00
+# at time    233442 ns READ : Bank = 0 Row =    0, Col = 496, Data =     0, Dqm = zz00
+# at time    233452 ns READ : Bank = 0 Row =    0, Col = 497, Data =     0, Dqm = zz00
+# at time    233462 ns READ : Bank = 0 Row =    0, Col = 498, Data =     0, Dqm = zz00
+# at time    233472 ns READ : Bank = 0 Row =    0, Col = 499, Data =     0, Dqm = zz00
+# at time    233482 ns READ : Bank = 0 Row =    0, Col = 500, Data =     0, Dqm = zz00
+# at time    233492 ns READ : Bank = 0 Row =    0, Col = 501, Data =     0, Dqm = zz00
+# at time    233502 ns READ : Bank = 0 Row =    0, Col = 502, Data =     0, Dqm = zz00
+# at time    233512 ns READ : Bank = 0 Row =    0, Col = 503, Data =     0, Dqm = zz00
+# at time    233522 ns READ : Bank = 0 Row =    0, Col = 504, Data =     0, Dqm = zz00
+# at time    233532 ns READ : Bank = 0 Row =    0, Col = 505, Data =     0, Dqm = zz00
+# at time    233542 ns READ : Bank = 0 Row =    0, Col = 506, Data =     0, Dqm = zz00
+# at time    233552 ns READ : Bank = 0 Row =    0, Col = 507, Data =     0, Dqm = zz00
+# at time    233562 ns READ : Bank = 0 Row =    0, Col = 508, Data =     0, Dqm = zz00
+# at time    233572 ns READ : Bank = 0 Row =    0, Col = 509, Data =     0, Dqm = zz00
+# at time    233575 ns PRE  : Bank = 0
+# at time    233582 ns READ : Bank = 0 Row =    0, Col = 510, Data =     0, Dqm = zz00
+# at time    233592 ns READ : Bank = 0 Row =    0, Col = 511, Data =     0, Dqm = zz00
+# at time    236085 ns ACT  : Bank = 0 Row =    1
+# at time    236162 ns READ : Bank = 0 Row =    1, Col =   0, Data =     0, Dqm = zz00
+# at time    236172 ns READ : Bank = 0 Row =    1, Col =   1, Data =     0, Dqm = zz00
+# at time    236182 ns READ : Bank = 0 Row =    1, Col =   2, Data =     0, Dqm = zz00
+# at time    236192 ns READ : Bank = 0 Row =    1, Col =   3, Data =     0, Dqm = zz00
+# at time    236202 ns READ : Bank = 0 Row =    1, Col =   4, Data =     0, Dqm = zz00
+# at time    236212 ns READ : Bank = 0 Row =    1, Col =   5, Data =     0, Dqm = zz00
+# at time    236222 ns READ : Bank = 0 Row =    1, Col =   6, Data =     0, Dqm = zz00
+# at time    236232 ns READ : Bank = 0 Row =    1, Col =   7, Data =     0, Dqm = zz00
+# at time    236242 ns READ : Bank = 0 Row =    1, Col =   8, Data =     0, Dqm = zz00
+# at time    236252 ns READ : Bank = 0 Row =    1, Col =   9, Data =     0, Dqm = zz00
+# at time    236262 ns READ : Bank = 0 Row =    1, Col =  10, Data =     0, Dqm = zz00
+# at time    236272 ns READ : Bank = 0 Row =    1, Col =  11, Data =     0, Dqm = zz00
+# at time    236282 ns READ : Bank = 0 Row =    1, Col =  12, Data =     0, Dqm = zz00
+# at time    236292 ns READ : Bank = 0 Row =    1, Col =  13, Data =     0, Dqm = zz00
+# at time    236302 ns READ : Bank = 0 Row =    1, Col =  14, Data =     0, Dqm = zz00
+# at time    236312 ns READ : Bank = 0 Row =    1, Col =  15, Data =     0, Dqm = zz00
+# at time    236322 ns READ : Bank = 0 Row =    1, Col =  16, Data =     0, Dqm = zz00
+# at time    236332 ns READ : Bank = 0 Row =    1, Col =  17, Data =     0, Dqm = zz00
+# at time    236342 ns READ : Bank = 0 Row =    1, Col =  18, Data =     0, Dqm = zz00
+# at time    236352 ns READ : Bank = 0 Row =    1, Col =  19, Data =     0, Dqm = zz00
+# at time    236362 ns READ : Bank = 0 Row =    1, Col =  20, Data =     0, Dqm = zz00
+# at time    236372 ns READ : Bank = 0 Row =    1, Col =  21, Data =     0, Dqm = zz00
+# at time    236382 ns READ : Bank = 0 Row =    1, Col =  22, Data =     0, Dqm = zz00
+# at time    236392 ns READ : Bank = 0 Row =    1, Col =  23, Data =     0, Dqm = zz00
+# at time    236402 ns READ : Bank = 0 Row =    1, Col =  24, Data =     0, Dqm = zz00
+# at time    236412 ns READ : Bank = 0 Row =    1, Col =  25, Data =     0, Dqm = zz00
+# at time    236422 ns READ : Bank = 0 Row =    1, Col =  26, Data =     0, Dqm = zz00
+# at time    236432 ns READ : Bank = 0 Row =    1, Col =  27, Data =     0, Dqm = zz00
+# at time    236442 ns READ : Bank = 0 Row =    1, Col =  28, Data =     0, Dqm = zz00
+# at time    236452 ns READ : Bank = 0 Row =    1, Col =  29, Data =     0, Dqm = zz00
+# at time    236462 ns READ : Bank = 0 Row =    1, Col =  30, Data =     0, Dqm = zz00
+# at time    236472 ns READ : Bank = 0 Row =    1, Col =  31, Data =     0, Dqm = zz00
+# at time    236482 ns READ : Bank = 0 Row =    1, Col =  32, Data =     0, Dqm = zz00
+# at time    236492 ns READ : Bank = 0 Row =    1, Col =  33, Data =     0, Dqm = zz00
+# at time    236502 ns READ : Bank = 0 Row =    1, Col =  34, Data =     0, Dqm = zz00
+# at time    236512 ns READ : Bank = 0 Row =    1, Col =  35, Data =     0, Dqm = zz00
+# at time    236522 ns READ : Bank = 0 Row =    1, Col =  36, Data =     0, Dqm = zz00
+# at time    236532 ns READ : Bank = 0 Row =    1, Col =  37, Data =     0, Dqm = zz00
+# at time    236542 ns READ : Bank = 0 Row =    1, Col =  38, Data =     0, Dqm = zz00
+# at time    236552 ns READ : Bank = 0 Row =    1, Col =  39, Data =     0, Dqm = zz00
+# at time    236562 ns READ : Bank = 0 Row =    1, Col =  40, Data =     0, Dqm = zz00
+# at time    236572 ns READ : Bank = 0 Row =    1, Col =  41, Data =     0, Dqm = zz00
+# at time    236582 ns READ : Bank = 0 Row =    1, Col =  42, Data =     0, Dqm = zz00
+# at time    236592 ns READ : Bank = 0 Row =    1, Col =  43, Data =     0, Dqm = zz00
+# at time    236602 ns READ : Bank = 0 Row =    1, Col =  44, Data =     0, Dqm = zz00
+# at time    236612 ns READ : Bank = 0 Row =    1, Col =  45, Data =     0, Dqm = zz00
+# at time    236622 ns READ : Bank = 0 Row =    1, Col =  46, Data =     0, Dqm = zz00
+# at time    236632 ns READ : Bank = 0 Row =    1, Col =  47, Data =     0, Dqm = zz00
+# at time    236642 ns READ : Bank = 0 Row =    1, Col =  48, Data =     0, Dqm = zz00
+# at time    236652 ns READ : Bank = 0 Row =    1, Col =  49, Data =     0, Dqm = zz00
+# at time    236662 ns READ : Bank = 0 Row =    1, Col =  50, Data =     0, Dqm = zz00
+# at time    236672 ns READ : Bank = 0 Row =    1, Col =  51, Data =     0, Dqm = zz00
+# at time    236682 ns READ : Bank = 0 Row =    1, Col =  52, Data =     0, Dqm = zz00
+# at time    236692 ns READ : Bank = 0 Row =    1, Col =  53, Data =     0, Dqm = zz00
+# at time    236702 ns READ : Bank = 0 Row =    1, Col =  54, Data =     0, Dqm = zz00
+# at time    236712 ns READ : Bank = 0 Row =    1, Col =  55, Data =     0, Dqm = zz00
+# at time    236722 ns READ : Bank = 0 Row =    1, Col =  56, Data =     0, Dqm = zz00
+# at time    236732 ns READ : Bank = 0 Row =    1, Col =  57, Data =     0, Dqm = zz00
+# at time    236742 ns READ : Bank = 0 Row =    1, Col =  58, Data =     0, Dqm = zz00
+# at time    236752 ns READ : Bank = 0 Row =    1, Col =  59, Data =     0, Dqm = zz00
+# at time    236762 ns READ : Bank = 0 Row =    1, Col =  60, Data =     0, Dqm = zz00
+# at time    236772 ns READ : Bank = 0 Row =    1, Col =  61, Data =     0, Dqm = zz00
+# at time    236782 ns READ : Bank = 0 Row =    1, Col =  62, Data =     0, Dqm = zz00
+# at time    236792 ns READ : Bank = 0 Row =    1, Col =  63, Data =     0, Dqm = zz00
+# at time    236802 ns READ : Bank = 0 Row =    1, Col =  64, Data =     0, Dqm = zz00
+# at time    236812 ns READ : Bank = 0 Row =    1, Col =  65, Data =     0, Dqm = zz00
+# at time    236822 ns READ : Bank = 0 Row =    1, Col =  66, Data =     0, Dqm = zz00
+# at time    236832 ns READ : Bank = 0 Row =    1, Col =  67, Data =     0, Dqm = zz00
+# at time    236842 ns READ : Bank = 0 Row =    1, Col =  68, Data =     0, Dqm = zz00
+# at time    236852 ns READ : Bank = 0 Row =    1, Col =  69, Data =     0, Dqm = zz00
+# at time    236862 ns READ : Bank = 0 Row =    1, Col =  70, Data =     0, Dqm = zz00
+# at time    236872 ns READ : Bank = 0 Row =    1, Col =  71, Data =     0, Dqm = zz00
+# at time    236882 ns READ : Bank = 0 Row =    1, Col =  72, Data =     0, Dqm = zz00
+# at time    236892 ns READ : Bank = 0 Row =    1, Col =  73, Data =     0, Dqm = zz00
+# at time    236902 ns READ : Bank = 0 Row =    1, Col =  74, Data =     0, Dqm = zz00
+# at time    236912 ns READ : Bank = 0 Row =    1, Col =  75, Data =     0, Dqm = zz00
+# at time    236922 ns READ : Bank = 0 Row =    1, Col =  76, Data =     0, Dqm = zz00
+# at time    236932 ns READ : Bank = 0 Row =    1, Col =  77, Data =     0, Dqm = zz00
+# at time    236942 ns READ : Bank = 0 Row =    1, Col =  78, Data =     0, Dqm = zz00
+# at time    236952 ns READ : Bank = 0 Row =    1, Col =  79, Data =     0, Dqm = zz00
+# at time    236962 ns READ : Bank = 0 Row =    1, Col =  80, Data =     0, Dqm = zz00
+# at time    236972 ns READ : Bank = 0 Row =    1, Col =  81, Data =     0, Dqm = zz00
+# at time    236982 ns READ : Bank = 0 Row =    1, Col =  82, Data =     0, Dqm = zz00
+# at time    236992 ns READ : Bank = 0 Row =    1, Col =  83, Data =     0, Dqm = zz00
+# at time    237002 ns READ : Bank = 0 Row =    1, Col =  84, Data =     0, Dqm = zz00
+# at time    237012 ns READ : Bank = 0 Row =    1, Col =  85, Data =     0, Dqm = zz00
+# at time    237022 ns READ : Bank = 0 Row =    1, Col =  86, Data =     0, Dqm = zz00
+# at time    237032 ns READ : Bank = 0 Row =    1, Col =  87, Data =     0, Dqm = zz00
+# at time    237042 ns READ : Bank = 0 Row =    1, Col =  88, Data =     0, Dqm = zz00
+# at time    237052 ns READ : Bank = 0 Row =    1, Col =  89, Data =     0, Dqm = zz00
+# at time    237062 ns READ : Bank = 0 Row =    1, Col =  90, Data =     0, Dqm = zz00
+# at time    237072 ns READ : Bank = 0 Row =    1, Col =  91, Data =     0, Dqm = zz00
+# at time    237082 ns READ : Bank = 0 Row =    1, Col =  92, Data =     0, Dqm = zz00
+# at time    237092 ns READ : Bank = 0 Row =    1, Col =  93, Data =     0, Dqm = zz00
+# at time    237102 ns READ : Bank = 0 Row =    1, Col =  94, Data =     0, Dqm = zz00
+# at time    237112 ns READ : Bank = 0 Row =    1, Col =  95, Data =     0, Dqm = zz00
+# at time    237122 ns READ : Bank = 0 Row =    1, Col =  96, Data =     0, Dqm = zz00
+# at time    237132 ns READ : Bank = 0 Row =    1, Col =  97, Data =     0, Dqm = zz00
+# at time    237142 ns READ : Bank = 0 Row =    1, Col =  98, Data =     0, Dqm = zz00
+# at time    237152 ns READ : Bank = 0 Row =    1, Col =  99, Data =     0, Dqm = zz00
+# at time    237162 ns READ : Bank = 0 Row =    1, Col = 100, Data =     0, Dqm = zz00
+# at time    237172 ns READ : Bank = 0 Row =    1, Col = 101, Data =     0, Dqm = zz00
+# at time    237182 ns READ : Bank = 0 Row =    1, Col = 102, Data =     0, Dqm = zz00
+# at time    237192 ns READ : Bank = 0 Row =    1, Col = 103, Data =     0, Dqm = zz00
+# at time    237202 ns READ : Bank = 0 Row =    1, Col = 104, Data =     0, Dqm = zz00
+# at time    237212 ns READ : Bank = 0 Row =    1, Col = 105, Data =     0, Dqm = zz00
+# at time    237222 ns READ : Bank = 0 Row =    1, Col = 106, Data =     0, Dqm = zz00
+# at time    237232 ns READ : Bank = 0 Row =    1, Col = 107, Data =     0, Dqm = zz00
+# at time    237242 ns READ : Bank = 0 Row =    1, Col = 108, Data =     0, Dqm = zz00
+# at time    237252 ns READ : Bank = 0 Row =    1, Col = 109, Data =     0, Dqm = zz00
+# at time    237262 ns READ : Bank = 0 Row =    1, Col = 110, Data =     0, Dqm = zz00
+# at time    237272 ns READ : Bank = 0 Row =    1, Col = 111, Data =     0, Dqm = zz00
+# at time    237282 ns READ : Bank = 0 Row =    1, Col = 112, Data =     0, Dqm = zz00
+# at time    237292 ns READ : Bank = 0 Row =    1, Col = 113, Data =     0, Dqm = zz00
+# at time    237302 ns READ : Bank = 0 Row =    1, Col = 114, Data =     0, Dqm = zz00
+# at time    237312 ns READ : Bank = 0 Row =    1, Col = 115, Data =     0, Dqm = zz00
+# at time    237322 ns READ : Bank = 0 Row =    1, Col = 116, Data =     0, Dqm = zz00
+# at time    237332 ns READ : Bank = 0 Row =    1, Col = 117, Data =     0, Dqm = zz00
+# at time    237342 ns READ : Bank = 0 Row =    1, Col = 118, Data =     0, Dqm = zz00
+# at time    237352 ns READ : Bank = 0 Row =    1, Col = 119, Data =     0, Dqm = zz00
+# at time    237362 ns READ : Bank = 0 Row =    1, Col = 120, Data =     0, Dqm = zz00
+# at time    237372 ns READ : Bank = 0 Row =    1, Col = 121, Data =     0, Dqm = zz00
+# at time    237382 ns READ : Bank = 0 Row =    1, Col = 122, Data =     0, Dqm = zz00
+# at time    237392 ns READ : Bank = 0 Row =    1, Col = 123, Data =     0, Dqm = zz00
+# at time    237402 ns READ : Bank = 0 Row =    1, Col = 124, Data =     0, Dqm = zz00
+# at time    237412 ns READ : Bank = 0 Row =    1, Col = 125, Data =     0, Dqm = zz00
+# at time    237422 ns READ : Bank = 0 Row =    1, Col = 126, Data =     0, Dqm = zz00
+# at time    237432 ns READ : Bank = 0 Row =    1, Col = 127, Data =     0, Dqm = zz00
+# at time    237442 ns READ : Bank = 0 Row =    1, Col = 128, Data =     0, Dqm = zz00
+# at time    237452 ns READ : Bank = 0 Row =    1, Col = 129, Data =     0, Dqm = zz00
+# at time    237462 ns READ : Bank = 0 Row =    1, Col = 130, Data =     0, Dqm = zz00
+# at time    237472 ns READ : Bank = 0 Row =    1, Col = 131, Data =     0, Dqm = zz00
+# at time    237482 ns READ : Bank = 0 Row =    1, Col = 132, Data =     0, Dqm = zz00
+# at time    237492 ns READ : Bank = 0 Row =    1, Col = 133, Data =     0, Dqm = zz00
+# at time    237502 ns READ : Bank = 0 Row =    1, Col = 134, Data =     0, Dqm = zz00
+# at time    237512 ns READ : Bank = 0 Row =    1, Col = 135, Data =     0, Dqm = zz00
+# at time    237522 ns READ : Bank = 0 Row =    1, Col = 136, Data =     0, Dqm = zz00
+# at time    237532 ns READ : Bank = 0 Row =    1, Col = 137, Data =     0, Dqm = zz00
+# at time    237542 ns READ : Bank = 0 Row =    1, Col = 138, Data =     0, Dqm = zz00
+# at time    237552 ns READ : Bank = 0 Row =    1, Col = 139, Data =     0, Dqm = zz00
+# at time    237562 ns READ : Bank = 0 Row =    1, Col = 140, Data =     0, Dqm = zz00
+# at time    237572 ns READ : Bank = 0 Row =    1, Col = 141, Data =     0, Dqm = zz00
+# at time    237582 ns READ : Bank = 0 Row =    1, Col = 142, Data =     0, Dqm = zz00
+# at time    237592 ns READ : Bank = 0 Row =    1, Col = 143, Data =     0, Dqm = zz00
+# at time    237602 ns READ : Bank = 0 Row =    1, Col = 144, Data =     0, Dqm = zz00
+# at time    237612 ns READ : Bank = 0 Row =    1, Col = 145, Data =     0, Dqm = zz00
+# at time    237622 ns READ : Bank = 0 Row =    1, Col = 146, Data =     0, Dqm = zz00
+# at time    237632 ns READ : Bank = 0 Row =    1, Col = 147, Data =     0, Dqm = zz00
+# at time    237642 ns READ : Bank = 0 Row =    1, Col = 148, Data =     0, Dqm = zz00
+# at time    237652 ns READ : Bank = 0 Row =    1, Col = 149, Data =     0, Dqm = zz00
+# at time    237662 ns READ : Bank = 0 Row =    1, Col = 150, Data =     0, Dqm = zz00
+# at time    237672 ns READ : Bank = 0 Row =    1, Col = 151, Data =     0, Dqm = zz00
+# at time    237682 ns READ : Bank = 0 Row =    1, Col = 152, Data =     0, Dqm = zz00
+# at time    237692 ns READ : Bank = 0 Row =    1, Col = 153, Data =     0, Dqm = zz00
+# at time    237702 ns READ : Bank = 0 Row =    1, Col = 154, Data =     0, Dqm = zz00
+# at time    237712 ns READ : Bank = 0 Row =    1, Col = 155, Data =     0, Dqm = zz00
+# at time    237722 ns READ : Bank = 0 Row =    1, Col = 156, Data =     0, Dqm = zz00
+# at time    237732 ns READ : Bank = 0 Row =    1, Col = 157, Data =     0, Dqm = zz00
+# at time    237742 ns READ : Bank = 0 Row =    1, Col = 158, Data =     0, Dqm = zz00
+# at time    237752 ns READ : Bank = 0 Row =    1, Col = 159, Data =     0, Dqm = zz00
+# at time    237762 ns READ : Bank = 0 Row =    1, Col = 160, Data =     0, Dqm = zz00
+# at time    237772 ns READ : Bank = 0 Row =    1, Col = 161, Data =     0, Dqm = zz00
+# at time    237782 ns READ : Bank = 0 Row =    1, Col = 162, Data =     0, Dqm = zz00
+# at time    237792 ns READ : Bank = 0 Row =    1, Col = 163, Data =     0, Dqm = zz00
+# at time    237802 ns READ : Bank = 0 Row =    1, Col = 164, Data =     0, Dqm = zz00
+# at time    237812 ns READ : Bank = 0 Row =    1, Col = 165, Data =     0, Dqm = zz00
+# at time    237822 ns READ : Bank = 0 Row =    1, Col = 166, Data =     0, Dqm = zz00
+# at time    237832 ns READ : Bank = 0 Row =    1, Col = 167, Data =     0, Dqm = zz00
+# at time    237842 ns READ : Bank = 0 Row =    1, Col = 168, Data =     0, Dqm = zz00
+# at time    237852 ns READ : Bank = 0 Row =    1, Col = 169, Data =     0, Dqm = zz00
+# at time    237862 ns READ : Bank = 0 Row =    1, Col = 170, Data =     0, Dqm = zz00
+# at time    237872 ns READ : Bank = 0 Row =    1, Col = 171, Data =     0, Dqm = zz00
+# at time    237882 ns READ : Bank = 0 Row =    1, Col = 172, Data =     0, Dqm = zz00
+# at time    237892 ns READ : Bank = 0 Row =    1, Col = 173, Data =     0, Dqm = zz00
+# at time    237902 ns READ : Bank = 0 Row =    1, Col = 174, Data =     0, Dqm = zz00
+# at time    237912 ns READ : Bank = 0 Row =    1, Col = 175, Data =     0, Dqm = zz00
+# at time    237922 ns READ : Bank = 0 Row =    1, Col = 176, Data =     0, Dqm = zz00
+# at time    237932 ns READ : Bank = 0 Row =    1, Col = 177, Data =     0, Dqm = zz00
+# at time    237942 ns READ : Bank = 0 Row =    1, Col = 178, Data =     0, Dqm = zz00
+# at time    237952 ns READ : Bank = 0 Row =    1, Col = 179, Data =     0, Dqm = zz00
+# at time    237962 ns READ : Bank = 0 Row =    1, Col = 180, Data =     0, Dqm = zz00
+# at time    237972 ns READ : Bank = 0 Row =    1, Col = 181, Data =     0, Dqm = zz00
+# at time    237982 ns READ : Bank = 0 Row =    1, Col = 182, Data =     0, Dqm = zz00
+# at time    237992 ns READ : Bank = 0 Row =    1, Col = 183, Data =     0, Dqm = zz00
+# at time    238002 ns READ : Bank = 0 Row =    1, Col = 184, Data =     0, Dqm = zz00
+# at time    238012 ns READ : Bank = 0 Row =    1, Col = 185, Data =     0, Dqm = zz00
+# at time    238022 ns READ : Bank = 0 Row =    1, Col = 186, Data =     0, Dqm = zz00
+# at time    238032 ns READ : Bank = 0 Row =    1, Col = 187, Data =     0, Dqm = zz00
+# at time    238042 ns READ : Bank = 0 Row =    1, Col = 188, Data =     0, Dqm = zz00
+# at time    238052 ns READ : Bank = 0 Row =    1, Col = 189, Data =     0, Dqm = zz00
+# at time    238062 ns READ : Bank = 0 Row =    1, Col = 190, Data =     0, Dqm = zz00
+# at time    238072 ns READ : Bank = 0 Row =    1, Col = 191, Data =     0, Dqm = zz00
+# at time    238082 ns READ : Bank = 0 Row =    1, Col = 192, Data =     0, Dqm = zz00
+# at time    238092 ns READ : Bank = 0 Row =    1, Col = 193, Data =     0, Dqm = zz00
+# at time    238102 ns READ : Bank = 0 Row =    1, Col = 194, Data =     0, Dqm = zz00
+# at time    238112 ns READ : Bank = 0 Row =    1, Col = 195, Data =     0, Dqm = zz00
+# at time    238122 ns READ : Bank = 0 Row =    1, Col = 196, Data =     0, Dqm = zz00
+# at time    238132 ns READ : Bank = 0 Row =    1, Col = 197, Data =     0, Dqm = zz00
+# at time    238142 ns READ : Bank = 0 Row =    1, Col = 198, Data =     0, Dqm = zz00
+# at time    238152 ns READ : Bank = 0 Row =    1, Col = 199, Data =     0, Dqm = zz00
+# at time    238162 ns READ : Bank = 0 Row =    1, Col = 200, Data =     0, Dqm = zz00
+# at time    238172 ns READ : Bank = 0 Row =    1, Col = 201, Data =     0, Dqm = zz00
+# at time    238182 ns READ : Bank = 0 Row =    1, Col = 202, Data =     0, Dqm = zz00
+# at time    238192 ns READ : Bank = 0 Row =    1, Col = 203, Data =     0, Dqm = zz00
+# at time    238202 ns READ : Bank = 0 Row =    1, Col = 204, Data =     0, Dqm = zz00
+# at time    238212 ns READ : Bank = 0 Row =    1, Col = 205, Data =     0, Dqm = zz00
+# at time    238222 ns READ : Bank = 0 Row =    1, Col = 206, Data =     0, Dqm = zz00
+# at time    238232 ns READ : Bank = 0 Row =    1, Col = 207, Data =     0, Dqm = zz00
+# at time    238242 ns READ : Bank = 0 Row =    1, Col = 208, Data =     0, Dqm = zz00
+# at time    238252 ns READ : Bank = 0 Row =    1, Col = 209, Data =     0, Dqm = zz00
+# at time    238262 ns READ : Bank = 0 Row =    1, Col = 210, Data =     0, Dqm = zz00
+# at time    238272 ns READ : Bank = 0 Row =    1, Col = 211, Data =     0, Dqm = zz00
+# at time    238282 ns READ : Bank = 0 Row =    1, Col = 212, Data =     0, Dqm = zz00
+# at time    238292 ns READ : Bank = 0 Row =    1, Col = 213, Data =     0, Dqm = zz00
+# at time    238302 ns READ : Bank = 0 Row =    1, Col = 214, Data =     0, Dqm = zz00
+# at time    238312 ns READ : Bank = 0 Row =    1, Col = 215, Data =     0, Dqm = zz00
+# at time    238322 ns READ : Bank = 0 Row =    1, Col = 216, Data =     0, Dqm = zz00
+# at time    238332 ns READ : Bank = 0 Row =    1, Col = 217, Data =     0, Dqm = zz00
+# at time    238342 ns READ : Bank = 0 Row =    1, Col = 218, Data =     0, Dqm = zz00
+# at time    238352 ns READ : Bank = 0 Row =    1, Col = 219, Data =     0, Dqm = zz00
+# at time    238362 ns READ : Bank = 0 Row =    1, Col = 220, Data =     0, Dqm = zz00
+# at time    238372 ns READ : Bank = 0 Row =    1, Col = 221, Data =     0, Dqm = zz00
+# at time    238382 ns READ : Bank = 0 Row =    1, Col = 222, Data =     0, Dqm = zz00
+# at time    238392 ns READ : Bank = 0 Row =    1, Col = 223, Data =     0, Dqm = zz00
+# at time    238402 ns READ : Bank = 0 Row =    1, Col = 224, Data =     0, Dqm = zz00
+# at time    238412 ns READ : Bank = 0 Row =    1, Col = 225, Data =     0, Dqm = zz00
+# at time    238422 ns READ : Bank = 0 Row =    1, Col = 226, Data =     0, Dqm = zz00
+# at time    238432 ns READ : Bank = 0 Row =    1, Col = 227, Data =     0, Dqm = zz00
+# at time    238442 ns READ : Bank = 0 Row =    1, Col = 228, Data =     0, Dqm = zz00
+# at time    238452 ns READ : Bank = 0 Row =    1, Col = 229, Data =     0, Dqm = zz00
+# at time    238462 ns READ : Bank = 0 Row =    1, Col = 230, Data =     0, Dqm = zz00
+# at time    238472 ns READ : Bank = 0 Row =    1, Col = 231, Data =     0, Dqm = zz00
+# at time    238482 ns READ : Bank = 0 Row =    1, Col = 232, Data =     0, Dqm = zz00
+# at time    238492 ns READ : Bank = 0 Row =    1, Col = 233, Data =     0, Dqm = zz00
+# at time    238502 ns READ : Bank = 0 Row =    1, Col = 234, Data =     0, Dqm = zz00
+# at time    238512 ns READ : Bank = 0 Row =    1, Col = 235, Data =     0, Dqm = zz00
+# at time    238522 ns READ : Bank = 0 Row =    1, Col = 236, Data =     0, Dqm = zz00
+# at time    238532 ns READ : Bank = 0 Row =    1, Col = 237, Data =     0, Dqm = zz00
+# at time    238542 ns READ : Bank = 0 Row =    1, Col = 238, Data =     0, Dqm = zz00
+# at time    238552 ns READ : Bank = 0 Row =    1, Col = 239, Data =     0, Dqm = zz00
+# at time    238562 ns READ : Bank = 0 Row =    1, Col = 240, Data =     0, Dqm = zz00
+# at time    238572 ns READ : Bank = 0 Row =    1, Col = 241, Data =     0, Dqm = zz00
+# at time    238582 ns READ : Bank = 0 Row =    1, Col = 242, Data =     0, Dqm = zz00
+# at time    238592 ns READ : Bank = 0 Row =    1, Col = 243, Data =     0, Dqm = zz00
+# at time    238602 ns READ : Bank = 0 Row =    1, Col = 244, Data =     0, Dqm = zz00
+# at time    238612 ns READ : Bank = 0 Row =    1, Col = 245, Data =     0, Dqm = zz00
+# at time    238622 ns READ : Bank = 0 Row =    1, Col = 246, Data =     0, Dqm = zz00
+# at time    238632 ns READ : Bank = 0 Row =    1, Col = 247, Data =     0, Dqm = zz00
+# at time    238642 ns READ : Bank = 0 Row =    1, Col = 248, Data =     0, Dqm = zz00
+# at time    238652 ns READ : Bank = 0 Row =    1, Col = 249, Data =     0, Dqm = zz00
+# at time    238662 ns READ : Bank = 0 Row =    1, Col = 250, Data =     0, Dqm = zz00
+# at time    238672 ns READ : Bank = 0 Row =    1, Col = 251, Data =     0, Dqm = zz00
+# at time    238682 ns READ : Bank = 0 Row =    1, Col = 252, Data =     0, Dqm = zz00
+# at time    238692 ns READ : Bank = 0 Row =    1, Col = 253, Data =     0, Dqm = zz00
+# at time    238695 ns PRE  : Bank = 0
+# at time    238702 ns READ : Bank = 0 Row =    1, Col = 254, Data =     0, Dqm = zz00
+# at time    238712 ns READ : Bank = 0 Row =    1, Col = 255, Data =     0, Dqm = zz00
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/13622/Desktop/my_pro_t/sdram_read/pro/sdram_read/wave.do
+# End time: 16:07:50 on Aug 07,2018, Elapsed time: 0:14:44
+# Errors: 0, Warnings: 5

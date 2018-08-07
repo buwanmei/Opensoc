@@ -1,0 +1,185 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\ise\xin\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xq7a100t-cs324-2I
+auto_write_read.ngc auto_write_read.ngd
+
+Reading NGO file
+"C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/auto_write_read.ngc
+" ...
+Loading design module "ipcore_dir/wfifo_512x16.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "DOA_REG" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DOB_REG" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_00" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_01" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_02" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_03" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_00" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_01" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_02" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_03" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_04" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_05" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_06" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_07" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_08" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_09" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0A" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0B" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0C" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0D" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0E" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0F" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_10" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_11" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_12" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_13" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_14" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_15" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_16" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_17" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_18" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_19" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1A" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1B" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1C" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1D" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1E" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1F" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_A" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_B" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_FILE" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "RAM_MODE" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SRVAL_A" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SRVAL_B" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "WRITE_MODE_A" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "WRITE_MODE_B" is not allowed on symbol
+   "ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram" of type "RAMB8BWER". 
+   This attribute will be ignored.
+ERROR:NgdBuild:604 - logical block
+   'wfifo_512x16_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fif
+   o.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramlo
+   op[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram' with type 'RAMB8BWER' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'RAMB8BWER' is not supported in target
+   'qartix7'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:  46
+
+Total memory usage is 4484184 kilobytes
+
+Total REAL time to NGDBUILD completion:  15 sec
+Total CPU time to NGDBUILD completion:   13 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "auto_write_read.bld"...

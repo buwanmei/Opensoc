@@ -1,0 +1,148 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.51 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.51 secs
+ 
+--> Reading design: tb_sdram_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "tb_sdram_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "tb_sdram_top"
+Output Format                      : NGC
+Target Device                      : xq7a100t-2I-cs324
+
+---- Source Options
+Top Module Name                    : tb_sdram_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\13622\Desktop\my_pro_t\sdram_write\src\sdram_write.v" into library work
+Parsing module <sdram_write>.
+Analyzing Verilog file "C:\Users\13622\Desktop\my_pro_t\sdram_write\src\sdram_read.v" into library work
+Parsing module <sdram_read>.
+Analyzing Verilog file "C:\Users\13622\Desktop\my_pro_t\sdram_write\src\sdram_init.v" into library work
+Parsing module <sdram_init>.
+Analyzing Verilog file "C:\Users\13622\Desktop\my_pro_t\sdram_write\src\sdram_aref.v" into library work
+Parsing module <sdram_aref>.
+Analyzing Verilog file "C:\Users\13622\Desktop\my_pro_t\sdram_write\src\auto_write_read.v" into library work
+Parsing module <auto_write_read>.
+Analyzing Verilog file "C:\Users\13622\Desktop\my_pro_t\sdram_write\work\sdram_model_plus.v" into library work
+Parsing module <sdram_model_plus>.
+Analyzing Verilog file "C:\Users\13622\Desktop\my_pro_t\sdram_write\src\sdram_top.v" into library work
+Parsing module <sdram_top>.
+Analyzing Verilog file "C:\Users\13622\Desktop\my_pro_t\sdram_write\work\tb_sdram_top.v" into library work
+Parsing module <tb_sdram_top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <tb_sdram_top>.
+WARNING:HDLCompiler:872 - "C:\Users\13622\Desktop\my_pro_t\sdram_write\work\tb_sdram_top.v" Line 34: Using initial value of s_rst_n since it is never assigned
+WARNING:HDLCompiler:872 - "C:\Users\13622\Desktop\my_pro_t\sdram_write\work\tb_sdram_top.v" Line 44: Using initial value of wfifo_wr_en since it is never assigned
+WARNING:HDLCompiler:462 - "C:\Users\13622\Desktop\my_pro_t\sdram_write\work\tb_sdram_top.v" Line 56: if-condition does not match any sensitivity list edge
+WARNING:HDLCompiler:91 - "C:\Users\13622\Desktop\my_pro_t\sdram_write\work\tb_sdram_top.v" Line 59: Signal <wfifo_wr_data> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+ERROR:HDLCompiler:1128 - "C:\Users\13622\Desktop\my_pro_t\sdram_write\work\tb_sdram_top.v" Line 59: Assignment under multiple single edges is not supported for synthesis
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:1128"
+Module tb_sdram_top remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Users\13622\Desktop\my_pro_t\sdram_write\work\tb_sdram_top.v" Line 3: Empty module <tb_sdram_top> remains a black box.
+--> 
+
+Total memory usage is 4534784 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

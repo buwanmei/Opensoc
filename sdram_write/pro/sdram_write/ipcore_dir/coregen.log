@@ -1,0 +1,71 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Resolving generics for 'wfifo_512x16'...
+WARNING:sim - A core named 'wfifo_512x16' already exists in the project. Output
+   products for this core may be overwritten.
+Applying external generics to 'wfifo_512x16'...
+Delivering associated files for 'wfifo_512x16'...
+Delivering EJava files for 'wfifo_512x16'...
+Generating implementation netlist for 'wfifo_512x16'...
+INFO:sim - Pre-processing HDL files for 'wfifo_512x16'...
+WARNING:sim - BlackBox generator run option '-ifmt' found multiple times. Only
+   the first occurence is considered.
+Running synthesis for 'wfifo_512x16'
+Running ngcbuild...
+Writing VEO instantiation template for 'wfifo_512x16'...
+Writing Verilog behavioral simulation model for 'wfifo_512x16'...
+WARNING:sim - Overwriting existing file
+   C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_c
+   g/wfifo_512x16/doc/fifo_generator_v9_3_vinfo.html with file from view
+   xilinx_documentation
+Delivered 3 files into directory
+C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_cg/w
+fifo_512x16
+Delivered 1 file into directory
+C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_cg/w
+fifo_512x16
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'wfifo_512x16'...
+Generating metadata file...
+Regenerating ISE project file for 'wfifo_512x16'...
+Generating ISE project...
+XCO file found: wfifo_512x16.xco
+XMDF file found: wfifo_512x16_xmdf.tcl
+Adding
+C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_cg/w
+fifo_512x16.asy -view all -origin_type imported
+Adding
+C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_cg/w
+fifo_512x16.ngc -view all -origin_type created
+Checking file
+"C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_cg/
+wfifo_512x16.ngc" for project device match ...
+File
+"C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_cg/
+wfifo_512x16.ngc" device information matches project device.
+Adding
+C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_cg/w
+fifo_512x16.sym -view all -origin_type imported
+Adding
+C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_cg/w
+fifo_512x16.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_
+   cg/wfifo_512x16.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/13622/Desktop/my_pro_t/sdram_write/pro/sdram_write/ipcore_dir/tmp/_cg/w
+fifo_512x16.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/wfifo_512x16"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'wfifo_512x16'.
