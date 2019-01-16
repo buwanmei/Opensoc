@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jan 16 08:05:13 2019
+# Process ID: 5640
+# Current directory: C:/Users/Hong/Desktop/TEST/my_vivado_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8176 C:\Users\Hong\Desktop\TEST\my_vivado_test\my_vivado_test.xpr
+# Log file: C:/Users/Hong/Desktop/TEST/my_vivado_test/vivado.log
+# Journal file: C:/Users/Hong/Desktop/TEST/my_vivado_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Hong/Desktop/TEST/my_vivado_test/my_vivado_test.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/bao/FPGA/vivado/xin/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 753.754 ; gain = 87.484
+update_compile_order -fileset sources_1
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Wed Jan 16 08:08:18 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Hong/Desktop/TEST/my_vivado_test/my_vivado_test.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 16 08:09:48 2019...

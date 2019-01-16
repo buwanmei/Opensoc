@@ -1,0 +1,46 @@
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {led_test_simulate.do}
+# vsim -do "do {led_test_simulate.do}" -l simulate.log 
+# Start time: 17:53:55 on Jan 15,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.led_test(fast)
+# Loading unisims_ver.IBUFGDS(fast)
+# Loading unisims_ver.IBUFDS(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+run 100us
+run 100us
+do {led_test_simulate.do}
+# vsim 
+# Start time: 17:54:11 on Jan 15,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.led_test(fast)
+# Loading unisims_ver.IBUFGDS(fast)
+# Loading unisims_ver.IBUFDS(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 17:54:39 on Jan 15,2019, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
